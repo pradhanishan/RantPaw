@@ -19,7 +19,7 @@ namespace RantPaw.Models.DTOS
         [MinLength(6), MaxLength(40)]
         [Compare("Password")]
 
-        public string ConfirmPassword { get; set } = string.Empty;
+        public string ConfirmPassword { get; set; } = string.Empty;
 
     }
 }

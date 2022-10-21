@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using RantPaw.DataContext;
+using RantPaw.Repositories;
 using RantPaw.Repositories.IRepositories;
 using RantPaw.Services.Server.UserServices;
 
@@ -18,7 +19,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
     );
 
-builder.Services.AddScoped<IUnitOfWork, IUnitOfWork>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Server services
 

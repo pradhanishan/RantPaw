@@ -1,0 +1,12 @@
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\bin\Debug\net6.0\RantPaw.Models.ServiceModels.deps.json
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\bin\Debug\net6.0\RantPaw.Models.ServiceModels.dll
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\bin\Debug\net6.0\RantPaw.Models.ServiceModels.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\RantPaw.Models.ServiceModels.csproj.AssemblyReference.cache
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\RantPaw.Models.ServiceModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\RantPaw.Models.ServiceModels.AssemblyInfoInputs.cache
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\RantPaw.Models.ServiceModels.AssemblyInfo.cs
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\RantPaw.Models.ServiceModels.csproj.CoreCompileInputs.cache
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\RantPaw.Models.ServiceModels.dll
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\refint\RantPaw.Models.ServiceModels.dll
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\RantPaw.Models.ServiceModels.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Models.ServiceModels\obj\Debug\net6.0\ref\RantPaw.Models.ServiceModels.dll

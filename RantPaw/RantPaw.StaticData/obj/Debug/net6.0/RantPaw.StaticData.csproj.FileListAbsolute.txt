@@ -1,0 +1,12 @@
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\bin\Debug\net6.0\RantPaw.StaticData.deps.json
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\bin\Debug\net6.0\RantPaw.StaticData.dll
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\bin\Debug\net6.0\RantPaw.StaticData.pdb
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\RantPaw.StaticData.csproj.AssemblyReference.cache
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\RantPaw.StaticData.GeneratedMSBuildEditorConfig.editorconfig
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\RantPaw.StaticData.AssemblyInfoInputs.cache
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\RantPaw.StaticData.AssemblyInfo.cs
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\RantPaw.StaticData.csproj.CoreCompileInputs.cache
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\RantPaw.StaticData.dll
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\refint\RantPaw.StaticData.dll
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\RantPaw.StaticData.pdb
+D:\development\RantPaw\RantPaw\RantPaw.StaticData\obj\Debug\net6.0\ref\RantPaw.StaticData.dll

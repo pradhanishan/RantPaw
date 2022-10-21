@@ -9,7 +9,6 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace RantPaw.Services.Server.UserServices
 {
     public class UserService : IUserService
@@ -76,7 +75,7 @@ namespace RantPaw.Services.Server.UserServices
             using HMACSHA512 HMAC = new();
 
             passwordSalt = HMAC.Key;
-            passwordHash = HMAC.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+            passwordHash = HMAC.ComputeHash(Encoding.UTF8.GetBytes(password));
         }
 
     }

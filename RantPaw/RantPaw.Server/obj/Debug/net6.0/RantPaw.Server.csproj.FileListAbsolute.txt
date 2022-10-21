@@ -52,7 +52,6 @@ D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.Ge
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.AssemblyInfoInputs.cache
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.AssemblyInfo.cs
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.csproj.CoreCompileInputs.cache
-D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.MvcApplicationPartsAssemblyInfo.cs
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.MvcApplicationPartsAssemblyInfo.cache
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\staticwebassets.build.json
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\staticwebassets.development.json
@@ -65,3 +64,14 @@ D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.ge
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\ref\RantPaw.Server.dll
 D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.Entities.dll
 D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.Entities.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.DTOS.dll
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.ServiceModels.dll
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Repositories.dll
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Services.Server.dll
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.StaticData.dll
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Repositories.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Services.Server.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.StaticData.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.DTOS.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.ServiceModels.pdb
