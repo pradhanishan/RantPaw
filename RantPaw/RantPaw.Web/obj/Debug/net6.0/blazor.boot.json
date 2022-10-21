@@ -9,12 +9,14 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Microsoft.AspNetCore.Authorization.dll": "sha256-UrVyaila4UaM9NG7wgfD9o+ih1r3xt3rq4W7Z+SCE3w=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-8yq2GCAfNZmhru8HZW\/xr9jDHwAS+MD4B1GGQFzi2Pg=",
+      "Blazored.LocalStorage.dll": "sha256-6RRoYeDP3d0xabXmcCMF66wXeJlXVPem28Trs8sQiis=",
+      "Microsoft.AspNetCore.Authorization.dll": "sha256-gbA+AujHUUBawZgIGQVo3vLdHlkaD7QLRM0dStUecSM=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-+gNaJML9x0hS\/cLcBimAURDK\/S8nSWJZkTCaP5lgRys=",
+      "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-9+8\/yERgTpi3ZfI6AAGlVvAMp+l67mW6GLhfzVwz7KY=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-I5BEosbTOX5zg7agqWZo14z3aViOJYbMCWeRLInDYiQ=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-mCmX0kVk855jFuyFyPzo67\/RUGcqcdN9PAEJFW+q4nk=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-YBkayjUkGHqPFwRfHSnDaZ62t4oeESWcId4vO\/nW7O4=",
-      "Microsoft.AspNetCore.Metadata.dll": "sha256-Lvp1k0OPbcwUzvar9Ccd9xzXMqNnq3pyj39WLXIgvCE=",
+      "Microsoft.AspNetCore.Metadata.dll": "sha256-\/8AsKpzt2ePKd\/B1\/dolnQ2PeDqEV+rYUcJOnL4\/PXE=",
       "Microsoft.Extensions.Configuration.dll": "sha256-c8yYhfrOBLEnOBglLTu9peXSbJDwFpuT4UQiXSv28Og=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-5Otet+KKVUjNkE\/hqcNWmt75H1K2VNuKPFagpRd6Ces=",
       "Microsoft.Extensions.Configuration.Binder.dll": "sha256-wNKhG3Ovx8jqxbscz2AALlsTLfI6GL2dyDhe63mSsoM=",
@@ -26,7 +28,7 @@
       "Microsoft.Extensions.FileProviders.Physical.dll": "sha256-sXujvGMZDgBBZ9HqfcEq9XsM0pvwyhPt60NA9qLDzGI=",
       "Microsoft.Extensions.FileSystemGlobbing.dll": "sha256-viiXOG0fwhWobT0TQ1ZOJiZBdRvYRlWbDtjz+6d8sQI=",
       "Microsoft.Extensions.Logging.dll": "sha256-GDZQCBtVHfrZZ6fL95lGoinLeUWLjQShLbfESwO7mrc=",
-      "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-w+c+xfLh8QIAwluhugyPc8sPvAmmIC\/UTxnugT7Oido=",
+      "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-ecZkn3RPZPEwxamP17ECOmKEAvX+KJUgvdYQFderb0U=",
       "Microsoft.Extensions.Options.dll": "sha256-eGESyy9mRu8RcCGajAu4E8nxSmeB5nxiZkFPVaZ5Vl0=",
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-WobL+r2zwB5FBTgS20yduagPN9b5O9KB59h+n2+ONDo=",
@@ -202,7 +204,7 @@
       "RantPaw.Models.DTOS.dll": "sha256-cd7OYxJFRIx6VhZsVMi3nBpaQMQGuC\/S1yPkdWvCNWs=",
       "RantPaw.Models.ServiceModels.dll": "sha256-ryvXqHFjvQoJpdG5a0zny3OiR8vx\/lYVa0uZs12Bw5c=",
       "RantPaw.Services.Web.dll": "sha256-II9V9P2qjIokxp6Bjd48IDaL3Ai3S1ypNk\/\/YPFpWlg=",
-      "RantPaw.Web.dll": "sha256-b1MqR7ygcQB+2JdQ0ih9+niuIrDBal6nVUF6yhT4GYY="
+      "RantPaw.Web.dll": "sha256-eqcdgVCqnBTG5OO2WtCJxAVZ27fIsPE1cLXdjqzLIwc="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -211,7 +213,7 @@
       "RantPaw.Models.DTOS.pdb": "sha256-svVgSzo2ZsqBwXGXI4p9kOuZuW6mHh6TMRgUOZrdiVQ=",
       "RantPaw.Models.ServiceModels.pdb": "sha256-R4hNANOlgKF4TnRYoA7oadPXcLkn9UemB9KNqd1hmnk=",
       "RantPaw.Services.Web.pdb": "sha256-OfHtnCo\/iT9IJOHF9v23tflNxo\/cRe\/sEq3ETDOgjys=",
-      "RantPaw.Web.pdb": "sha256-hN7B4T2R8\/eflMKG0dMTO+zK5Bet+QvQw221YFhI518="
+      "RantPaw.Web.pdb": "sha256-6nFbSRr3MmU\/sG+OLEi53WVJFHgxahPo0eORWvoAV7M="
     },
     "runtime": {
       "dotnet.6.0.8.0erzr5p10q.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

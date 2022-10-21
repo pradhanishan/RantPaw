@@ -602,12 +602,9 @@ D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\RantPaw.Web.Assembly
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\RantPaw.Web.AssemblyInfo.cs
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\RantPaw.Web.csproj.CoreCompileInputs.cache
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\RantPaw.Web.MvcApplicationPartsAssemblyInfo.cache
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\eEQ92WV1.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\YSrp08KE.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\fbN0tBWX.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\jxPb5bpC.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\+X+sKlVx.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\IK9u+ovF.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\jA6OU+cW.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\XEG5NMxR.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\Jkv2iGiw.gz
@@ -619,7 +616,6 @@ D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\LRvAfRjp.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\68MBqCrm.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\RkakxxVS.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\QFC7Boov.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\Ll+T8sL+.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\zdilZ+qY.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\NykzQvmE.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\qhQcVl01.gz
@@ -841,3 +837,15 @@ D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\Y+rvEpYY.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\jUZ9SSNT.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\nxlGDmlz.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\AJ8Ltsn+.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
+D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\Blazored.LocalStorage.dll
+D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\33Ej8HMR.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\2OZRkvm4.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\Di+l4dIz.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\ZFrFqNIb.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\lNng62dh.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\cJwJxK2R.gz

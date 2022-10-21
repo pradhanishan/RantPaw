@@ -1,0 +1,28 @@
+/*:root {
+    --color-primary:#364F6B;
+    --color-secondary:#3FC1C9;
+    --color-tertiary:#F5F5F5;
+    --color-quarternary:#FC5185;
+}*/
+
+.login-header[b-b8k7llx2gq] {
+    color: #364F6B
+}
+
+.login-form-container[b-b8k7llx2gq]{
+    margin-top:10%;
+}
+
+.login-button[b-b8k7llx2gq] {
+    background-color: #364F6B;
+    color: #F5F5F5;
+}
+
+    .login-button:hover[b-b8k7llx2gq], :focus[b-b8k7llx2gq] {
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    }
+
+    .redirect-to-register:hover[b-b8k7llx2gq], :focus[b-b8k7llx2gq] {
+        background-color: #F5F5F5;
+        color: #364F6B
+    }
