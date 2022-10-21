@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Models.ServiceModel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.StaticData", "RantPaw.StaticData\RantPaw.StaticData.csproj", "{1A70CCFE-43A6-4BA8-8670-05C038B96B62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Web", "RantPaw.Web\RantPaw.Web.csproj", "{11401BB2-423F-44B6-9688-999CB20D92C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Services.Web", "RantPaw.Services.Web\RantPaw.Services.Web.csproj", "{9F7D5EB1-60C5-40D5-BDEE-A1915A268601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{1A70CCFE-43A6-4BA8-8670-05C038B96B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A70CCFE-43A6-4BA8-8670-05C038B96B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A70CCFE-43A6-4BA8-8670-05C038B96B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11401BB2-423F-44B6-9688-999CB20D92C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11401BB2-423F-44B6-9688-999CB20D92C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11401BB2-423F-44B6-9688-999CB20D92C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11401BB2-423F-44B6-9688-999CB20D92C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7D5EB1-60C5-40D5-BDEE-A1915A268601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7D5EB1-60C5-40D5-BDEE-A1915A268601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7D5EB1-60C5-40D5-BDEE-A1915A268601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7D5EB1-60C5-40D5-BDEE-A1915A268601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
