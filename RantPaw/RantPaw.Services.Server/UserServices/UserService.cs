@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using RantPaw.Models.DTOS;
+using RantPaw.Models.DTOS.UserDTOS;
 using RantPaw.Models.Entities;
 using RantPaw.Models.ServiceModels;
 using RantPaw.Repositories.IRepositories;
@@ -141,7 +141,8 @@ namespace RantPaw.Services.Server.UserServices
         {
             List<Claim> claims = new()
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Username),
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.Username),
                 new Claim(ClaimTypes.Role,"User")
             };
 

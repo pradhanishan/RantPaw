@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.DTOS\\RantPaw.Models.DTOS.csproj": {
+                "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.DTOS\\RantPaw.Models.DTOS.csproj"
+              },
               "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.Entities\\RantPaw.Models.Entities.csproj": {
                 "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.Entities\\RantPaw.Models.Entities.csproj"
               }

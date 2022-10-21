@@ -958,6 +958,7 @@
         "dependencies": {
           "AutoMapper": "12.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "RantPaw.Models.DTOS": "1.0.0",
           "RantPaw.Models.Entities": "1.0.0"
         },
         "compile": {

@@ -10,7 +10,7 @@ namespace RantPaw.Repositories.IRepositories
     public interface IRepository<T> where T : class
     {
         // Get a list of entities
-        Task<IEnumerable<T>> GetAllAsync();
+        Task<IEnumerable<T>> GetAllAsync(string? includeProperties);
 
         // Get one single entity that matches the passed filter
         Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter);

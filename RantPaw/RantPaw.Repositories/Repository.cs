@@ -39,9 +39,17 @@ namespace RantPaw.Repositories
             return entity;
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IEnumerable<T>> GetAllAsync(string? includeProperties = null)
         {
-            return await _dbSet.ToListAsync();
+            IQueryable<T> query = _dbSet;
+            if (includeProperties != null)
+            {
+                foreach (var property in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(property);
+                }
+            }
+            return await query.ToListAsync();
         }
 
         public async Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter)

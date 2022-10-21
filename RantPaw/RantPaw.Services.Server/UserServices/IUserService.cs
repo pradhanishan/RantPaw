@@ -1,4 +1,4 @@
-﻿using RantPaw.Models.DTOS;
+﻿using RantPaw.Models.DTOS.UserDTOS;
 using RantPaw.Models.ServiceModels;
 using System;
 using System.Collections.Generic;

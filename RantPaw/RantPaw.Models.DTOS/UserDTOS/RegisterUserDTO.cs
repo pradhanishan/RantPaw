@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RantPaw.Models.DTOS
+namespace RantPaw.Models.DTOS.UserDTOS
 {
     public sealed class RegisterUserDTO
     {

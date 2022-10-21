@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using RantPaw.Models.DTOS;
+using RantPaw.Models.DTOS.UserDTOS;
 using RantPaw.Models.ServiceModels;
 using RantPaw.Services.Server.UserServices;
 

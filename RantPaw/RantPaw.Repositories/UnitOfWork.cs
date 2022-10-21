@@ -12,15 +12,15 @@ namespace RantPaw.Repositories
     {
 
         private readonly ApplicationDbContext _db;
-        public IUserRepository User
-        {
-            get; private set;
-        }
+        public IUserRepository User { get; private set; }
+
+        public IPostRepository Post { get; private set; }
 
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             User = new UserRepository(_db);
+            Post = new PostRepository(_db);
         }
 
 

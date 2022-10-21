@@ -6,6 +6,7 @@ using Microsoft.OpenApi.Models;
 using RantPaw.DataContext;
 using RantPaw.Repositories;
 using RantPaw.Repositories.IRepositories;
+using RantPaw.Services.Server.PostServices;
 using RantPaw.Services.Server.UserServices;
 using System.Reflection;
 using System.Text;
@@ -93,6 +94,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPostService, PostService>();
 
 // JWT Authentication
 
@@ -106,6 +108,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidateAudience = false,
     };
 });
+
+// Automapper
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 

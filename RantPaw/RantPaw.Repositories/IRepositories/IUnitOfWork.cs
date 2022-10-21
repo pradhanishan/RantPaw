@@ -10,6 +10,8 @@ namespace RantPaw.Repositories.IRepositories
     {
         IUserRepository User { get; }
 
+        IPostRepository Post { get; }
+
         Task SaveAsync();
 
     }

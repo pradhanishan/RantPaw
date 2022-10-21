@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RantPaw.Models.DTOS\RantPaw.Models.DTOS.csproj" />
     <ProjectReference Include="..\RantPaw.Models.Entities\RantPaw.Models.Entities.csproj" />
   </ItemGroup>
 
