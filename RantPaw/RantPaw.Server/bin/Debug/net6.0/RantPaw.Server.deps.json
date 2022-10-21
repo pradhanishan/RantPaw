@@ -496,10 +496,16 @@
       "RantPaw.DataContext/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "RantPaw.Models.Entities": "1.0.0"
         },
         "runtime": {
           "RantPaw.DataContext.dll": {}
+        }
+      },
+      "RantPaw.Models.Entities/1.0.0": {
+        "runtime": {
+          "RantPaw.Models.Entities.dll": {}
         }
       }
     }
@@ -854,6 +860,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "RantPaw.DataContext/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RantPaw.Models.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -12,3 +12,6 @@ D:\development\RantPaw\RantPaw\RantPaw.DataContext\obj\Debug\net6.0\refint\RantP
 D:\development\RantPaw\RantPaw\RantPaw.DataContext\obj\Debug\net6.0\RantPaw.DataContext.pdb
 D:\development\RantPaw\RantPaw\RantPaw.DataContext\obj\Debug\net6.0\RantPaw.DataContext.genruntimeconfig.cache
 D:\development\RantPaw\RantPaw\RantPaw.DataContext\obj\Debug\net6.0\ref\RantPaw.DataContext.dll
+D:\development\RantPaw\RantPaw\RantPaw.DataContext\bin\Debug\net6.0\RantPaw.Models.Entities.dll
+D:\development\RantPaw\RantPaw\RantPaw.DataContext\bin\Debug\net6.0\RantPaw.Models.Entities.pdb
+D:\development\RantPaw\RantPaw\RantPaw.DataContext\obj\Debug\net6.0\RantPaw.DataContext.csproj.CopyComplete

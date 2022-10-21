@@ -63,3 +63,5 @@ D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\refint\RantPaw.Se
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.pdb
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.genruntimeconfig.cache
 D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\ref\RantPaw.Server.dll
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.Entities.dll
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.Entities.pdb

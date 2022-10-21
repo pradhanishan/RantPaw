@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Server", "RantPaw.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.DataContext", "RantPaw.DataContext\RantPaw.DataContext.csproj", "{1BA4DA81-EE88-4D62-B202-B66D1123E67D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Models.Entities", "RantPaw.Models.Entities\RantPaw.Models.Entities.csproj", "{38FB1E5B-0497-4E55-9310-379E5651FCFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Services.Server", "RantPaw.Services.Server\RantPaw.Services.Server.csproj", "{176A770D-C5CC-4665-A353-CE467F332E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Repositories", "RantPaw.Repositories\RantPaw.Repositories.csproj", "{8302156E-DEAB-442B-AF08-916AA8B712B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{1BA4DA81-EE88-4D62-B202-B66D1123E67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA4DA81-EE88-4D62-B202-B66D1123E67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA4DA81-EE88-4D62-B202-B66D1123E67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FB1E5B-0497-4E55-9310-379E5651FCFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FB1E5B-0497-4E55-9310-379E5651FCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FB1E5B-0497-4E55-9310-379E5651FCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FB1E5B-0497-4E55-9310-379E5651FCFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176A770D-C5CC-4665-A353-CE467F332E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176A770D-C5CC-4665-A353-CE467F332E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176A770D-C5CC-4665-A353-CE467F332E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176A770D-C5CC-4665-A353-CE467F332E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8302156E-DEAB-442B-AF08-916AA8B712B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8302156E-DEAB-442B-AF08-916AA8B712B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8302156E-DEAB-442B-AF08-916AA8B712B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8302156E-DEAB-442B-AF08-916AA8B712B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

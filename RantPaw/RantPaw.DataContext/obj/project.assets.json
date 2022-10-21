@@ -798,6 +798,16 @@
             "rid": "win"
           }
         }
+      },
+      "RantPaw.Models.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RantPaw.Models.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Models.Entities.dll": {}
+        }
       }
     }
   },
@@ -2035,13 +2045,19 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "RantPaw.Models.Entities/1.0.0": {
+      "type": "project",
+      "path": "../RantPaw.Models.Entities/RantPaw.Models.Entities.csproj",
+      "msbuildProject": "../RantPaw.Models.Entities/RantPaw.Models.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 12.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.10"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
+      "RantPaw.Models.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2070,7 +2086,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.Entities\\RantPaw.Models.Entities.csproj": {
+              "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.Entities\\RantPaw.Models.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

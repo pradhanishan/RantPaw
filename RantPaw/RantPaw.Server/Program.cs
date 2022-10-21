@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using RantPaw.DataContext;
+using RantPaw.Repositories.IRepositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
     );
+
+builder.Services.AddScoped<IUnitOfWork, IUnitOfWork>();
 
 var app = builder.Build();
 
