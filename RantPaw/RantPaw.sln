@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Server", "RantPaw.Server\RantPaw.Server.csproj", "{6A3FE370-F3EC-490E-9A9C-806CA574BDEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.DataContext", "RantPaw.DataContext\RantPaw.DataContext.csproj", "{1BA4DA81-EE88-4D62-B202-B66D1123E67D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6A3FE370-F3EC-490E-9A9C-806CA574BDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A3FE370-F3EC-490E-9A9C-806CA574BDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A3FE370-F3EC-490E-9A9C-806CA574BDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA4DA81-EE88-4D62-B202-B66D1123E67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA4DA81-EE88-4D62-B202-B66D1123E67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA4DA81-EE88-4D62-B202-B66D1123E67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA4DA81-EE88-4D62-B202-B66D1123E67D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
