@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RantPaw.Models.DTOS\RantPaw.Models.DTOS.csproj" />
     <ProjectReference Include="..\RantPaw.Models.ServiceModels\RantPaw.Models.ServiceModels.csproj" />
     <ProjectReference Include="..\RantPaw.Services.Web\RantPaw.Services.Web.csproj" />
   </ItemGroup>

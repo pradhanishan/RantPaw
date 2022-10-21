@@ -31,6 +31,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-WobL+r2zwB5FBTgS20yduagPN9b5O9KB59h+n2+ONDo=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-kyP+B3x4SLKMAQWP1uHn9V4Q5p3r69HPLhs8C3yxGMU=",
+      "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
       "System.IO.Pipelines.dll": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
       "Microsoft.CSharp.dll": "sha256-Vo5Bb9oKq\/YrTGtwWhkxZbzLWoZKzjh+s6iqjyc9u4E=",
       "Microsoft.VisualBasic.Core.dll": "sha256-Cjnk9nhvTRWXb8mKeE9rfD87wFEF7Y78d3dLDbrTd58=",
@@ -198,13 +199,19 @@
       "mscorlib.dll": "sha256-TYLzIm125RbnX9+RAPqJnwZhd6CnQpJcrjiMpJfZ720=",
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
-      "RantPaw.Web.dll": "sha256-M5Ri820PHUqORUEoJIfctxtGy7CrkqDDJugD8KlFfSc="
+      "RantPaw.Models.DTOS.dll": "sha256-cd7OYxJFRIx6VhZsVMi3nBpaQMQGuC\/S1yPkdWvCNWs=",
+      "RantPaw.Models.ServiceModels.dll": "sha256-ryvXqHFjvQoJpdG5a0zny3OiR8vx\/lYVa0uZs12Bw5c=",
+      "RantPaw.Services.Web.dll": "sha256-II9V9P2qjIokxp6Bjd48IDaL3Ai3S1ypNk\/\/YPFpWlg=",
+      "RantPaw.Web.dll": "sha256-b1MqR7ygcQB+2JdQ0ih9+niuIrDBal6nVUF6yhT4GYY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "RantPaw.Web.pdb": "sha256-PGQ6GDQtIFxhNb\/wXmDfj2FbhcQzlMnp6uaa0XxePV4="
+      "RantPaw.Models.DTOS.pdb": "sha256-svVgSzo2ZsqBwXGXI4p9kOuZuW6mHh6TMRgUOZrdiVQ=",
+      "RantPaw.Models.ServiceModels.pdb": "sha256-R4hNANOlgKF4TnRYoA7oadPXcLkn9UemB9KNqd1hmnk=",
+      "RantPaw.Services.Web.pdb": "sha256-OfHtnCo\/iT9IJOHF9v23tflNxo\/cRe\/sEq3ETDOgjys=",
+      "RantPaw.Web.pdb": "sha256-hN7B4T2R8\/eflMKG0dMTO+zK5Bet+QvQw221YFhI518="
     },
     "runtime": {
       "dotnet.6.0.8.0erzr5p10q.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

@@ -1,7 +1,51 @@
 ﻿@page "/posts"
-
+@inject IPostService PostService
 <h3>Posts</h3>
+
+@if (isLoading)
+{
+	<div><p>Loading...</p></div>
+}
+
+@if (!isLoading && isLoaded)
+{
+
+	<div>
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<th>Author</th>
+					<th>Description</th>
+					<th>Created date</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var post in posts.Data!)
+				{
+					<tr>
+						<td>@post.AuthorName</td>
+						<td>@post.Description</td>
+						<td>@post.CreatedDate</td>
+					</tr>
+				}
+			</tbody>
+
+		</table>
+	</div>
+}
 
 @code {
 
+	ServiceResponse<List<GetPostDTO>> posts = new();
+	protected bool isLoading = false;
+	protected bool isLoaded = false;
+
+	protected override async Task OnInitializedAsync()
+	{
+
+		isLoading = true;
+		posts = await PostService.GetAll();
+		isLoaded = true;
+		isLoading = false;
+	}
 }
