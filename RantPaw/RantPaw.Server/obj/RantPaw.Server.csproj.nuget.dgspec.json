@@ -4,14 +4,14 @@
     "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\RantPaw.Server.csproj": {}
   },
   "projects": {
-    "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\RantPaw.Server.csproj": {
+    "D:\\development\\RantPaw\\RantPaw\\RantPaw.DataContext\\RantPaw.DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\RantPaw.Server.csproj",
-        "projectName": "RantPaw.Server",
-        "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\RantPaw.Server.csproj",
+        "projectUniqueName": "D:\\development\\RantPaw\\RantPaw\\RantPaw.DataContext\\RantPaw.DataContext.csproj",
+        "projectName": "RantPaw.DataContext",
+        "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.DataContext\\RantPaw.DataContext.csproj",
         "packagesPath": "C:\\Users\\i7p7x\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\obj\\",
+        "outputPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\i7p7x\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,91 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\RantPaw.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\RantPaw.Server.csproj",
+        "projectName": "RantPaw.Server",
+        "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\RantPaw.Server.csproj",
+        "packagesPath": "C:\\Users\\i7p7x\\.nuget\\packages\\",
+        "outputPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\i7p7x\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\development\\RantPaw\\RantPaw\\RantPaw.DataContext\\RantPaw.DataContext.csproj": {
+                "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.DataContext\\RantPaw.DataContext.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
