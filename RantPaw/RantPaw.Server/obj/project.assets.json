@@ -44,6 +44,39 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -865,6 +898,19 @@
           }
         }
       },
+      "System.Text.Encodings.Web/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Windows.Extensions/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -900,6 +946,16 @@
         },
         "runtime": {
           "bin/placeholder/RantPaw.DataContext.dll": {}
+        }
+      },
+      "RantPaw.Models.DTOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RantPaw.Models.DTOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Models.DTOS.dll": {}
         }
       },
       "RantPaw.Models.Entities/1.0.0": {
@@ -940,6 +996,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "RantPaw.Models.DTOS": "1.0.0",
           "RantPaw.Models.ServiceModels": "1.0.0",
           "RantPaw.Repositories": "1.0.0"
         },
@@ -948,6 +1006,16 @@
         },
         "runtime": {
           "bin/placeholder/RantPaw.Services.Server.dll": {}
+        }
+      },
+      "RantPaw.StaticData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RantPaw.StaticData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.StaticData.dll": {}
         }
       }
     }
@@ -996,6 +1064,32 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -2280,6 +2374,25 @@
         "version.txt"
       ]
     },
+    "System.Text.Encodings.Web/4.5.0": {
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.5.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Windows.Extensions/4.7.0": {
       "sha512": "CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "type": "package",
@@ -2306,6 +2419,11 @@
       "path": "../RantPaw.DataContext/RantPaw.DataContext.csproj",
       "msbuildProject": "../RantPaw.DataContext/RantPaw.DataContext.csproj"
     },
+    "RantPaw.Models.DTOS/1.0.0": {
+      "type": "project",
+      "path": "../RantPaw.Models.DTOS/RantPaw.Models.DTOS.csproj",
+      "msbuildProject": "../RantPaw.Models.DTOS/RantPaw.Models.DTOS.csproj"
+    },
     "RantPaw.Models.Entities/1.0.0": {
       "type": "project",
       "path": "../RantPaw.Models.Entities/RantPaw.Models.Entities.csproj",
@@ -2325,6 +2443,11 @@
       "type": "project",
       "path": "../RantPaw.Services.Server/RantPaw.Services.Server.csproj",
       "msbuildProject": "../RantPaw.Services.Server/RantPaw.Services.Server.csproj"
+    },
+    "RantPaw.StaticData/1.0.0": {
+      "type": "project",
+      "path": "../RantPaw.StaticData/RantPaw.StaticData.csproj",
+      "msbuildProject": "../RantPaw.StaticData/RantPaw.StaticData.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2335,6 +2458,7 @@
       "RantPaw.DataContext >= 1.0.0",
       "RantPaw.Repositories >= 1.0.0",
       "RantPaw.Services.Server >= 1.0.0",
+      "RantPaw.StaticData >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2373,6 +2497,9 @@
             },
             "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Server\\RantPaw.Services.Server.csproj": {
               "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Server\\RantPaw.Services.Server.csproj"
+            },
+            "D:\\development\\RantPaw\\RantPaw\\RantPaw.StaticData\\RantPaw.StaticData.csproj": {
+              "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.StaticData\\RantPaw.StaticData.csproj"
             }
           }
         }

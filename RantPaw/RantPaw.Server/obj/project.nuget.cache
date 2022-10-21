@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ay3WO8vWEGavgVJPGfIoq+Dkpu6AE+O6UGU/wg2L2gN+awWzBIKU2h5ZC97ee3+MihiA4jqpK3GHUfFZAGN75A==",
+  "dgSpecHash": "gAhV+Dv06WlKOZF/Qgz9bQ4TbutPbETd18NCr0ZfMOI+4eoiA/MuLAwyUJ6pccq5fqxDWdLE92ZM78X7GYRmEA==",
   "success": true,
   "projectFilePath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Server\\RantPaw.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\i7p7x\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -53,6 +55,7 @@
     "C:\\Users\\i7p7x\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
+    "C:\\Users\\i7p7x\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []

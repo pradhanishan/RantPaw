@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RantPaw.Models.DTOS;
+using RantPaw.Models.ServiceModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +10,7 @@ namespace RantPaw.Services.Server.UserServices
 {
     public interface IUserService
     {
-        
+        Task<ServiceResponse<string>> Register(RegisterUserDTO registerUser);
+
     }
 }

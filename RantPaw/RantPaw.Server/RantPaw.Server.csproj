@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -20,6 +20,7 @@
     <ProjectReference Include="..\RantPaw.DataContext\RantPaw.DataContext.csproj" />
     <ProjectReference Include="..\RantPaw.Repositories\RantPaw.Repositories.csproj" />
     <ProjectReference Include="..\RantPaw.Services.Server\RantPaw.Services.Server.csproj" />
+    <ProjectReference Include="..\RantPaw.StaticData\RantPaw.StaticData.csproj" />
   </ItemGroup>
 
 </Project>
