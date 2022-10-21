@@ -75,3 +75,7 @@ D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Services.
 D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.StaticData.pdb
 D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.DTOS.pdb
 D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Models.ServiceModels.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\RantPaw.Server.xml
+D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.MvcApplicationPartsAssemblyInfo.cs
+D:\development\RantPaw\RantPaw\RantPaw.Server\obj\Debug\net6.0\RantPaw.Server.xml
+D:\development\RantPaw\RantPaw\RantPaw.Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

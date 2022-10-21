@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RantPaw.Models.DTOS
 {
-    public sealed class RegisterUserDTO
+    public class LoginUserDTO
     {
         [Required]
         [MinLength(3), MaxLength(40)]
@@ -16,12 +16,5 @@ namespace RantPaw.Models.DTOS
         [DataType(DataType.Password)]
         [MinLength(6), MaxLength(40)]
         public string Password { get; set; } = string.Empty;
-
-        [DataType(DataType.Password)]
-        [MinLength(6), MaxLength(40)]
-        [Compare("Password")]
-
-        public string ConfirmPassword { get; set; } = string.Empty;
-
     }
 }

@@ -17,6 +17,11 @@ namespace RantPaw.Server.Controllers
             _userService = userService;
         }
 
+        /// <summary>
+        /// Create new user
+        /// </summary>
+        /// <param name="registerUser"></param>
+        /// <returns></returns>
         [HttpPost("Register")]
 
         public async Task<ActionResult<ServiceResponse<string>>> Register(RegisterUserDTO registerUser)
@@ -26,6 +31,21 @@ namespace RantPaw.Server.Controllers
             return response.StatusCode switch
             {
                 StatusCodes.Status201Created => (ActionResult<ServiceResponse<string>>)CreatedAtAction("Register", response),
+                StatusCodes.Status406NotAcceptable => (ActionResult<ServiceResponse<string>>)BadRequest(response),
+                _ => (ActionResult<ServiceResponse<string>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
+            };
+
+        }
+
+        [HttpPost("Login")]
+
+        public async Task<ActionResult<ServiceResponse<string>>> Login(LoginUserDTO loginUser)
+        {
+            var response = await _userService.Login(loginUser);
+
+            return response.StatusCode switch
+            {
+                StatusCodes.Status200OK => (ActionResult<ServiceResponse<string>>)Ok(response),
                 StatusCodes.Status406NotAcceptable => (ActionResult<ServiceResponse<string>>)BadRequest(response),
                 _ => (ActionResult<ServiceResponse<string>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
             };

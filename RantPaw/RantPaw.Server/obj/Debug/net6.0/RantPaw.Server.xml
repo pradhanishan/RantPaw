@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RantPaw.Server</name>
+    </assembly>
+    <members>
+        <member name="M:RantPaw.Server.Controllers.UsersController.Register(RantPaw.Models.DTOS.RegisterUserDTO)">
+            <summary>
+            Create new user
+            </summary>
+            <param name="registerUser"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

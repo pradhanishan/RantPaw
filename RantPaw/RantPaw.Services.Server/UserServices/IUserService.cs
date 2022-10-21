@@ -12,5 +12,8 @@ namespace RantPaw.Services.Server.UserServices
     {
         Task<ServiceResponse<string>> Register(RegisterUserDTO registerUser);
 
+        Task<ServiceResponse<string>> Login(LoginUserDTO loginUser);
+
+
     }
 }
