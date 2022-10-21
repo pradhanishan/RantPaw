@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y9kNSjXhRs+0CGpzYegste6oYpCaLTq4DuJDeMlUldpH/DXOUMmNaj9JZ4AHNBmt1cVuiOmkTIBaYLVzoEEe6A==",
+  "dgSpecHash": "WRAVJJdND5HA88D13U/HfMN+4ZbQDX3LGZFSQBbgLcbXc/pB+K+SLri6UgBr5VEsXd4BsPSfhx1NHVXmGnkCzA==",
   "success": true,
   "projectFilePath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\RantPaw.Web.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\microsoft.jsinterop.6.0.8.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.8\\microsoft.jsinterop.webassembly.6.0.8.nupkg.sha512",
+    "C:\\Users\\i7p7x\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\i7p7x\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

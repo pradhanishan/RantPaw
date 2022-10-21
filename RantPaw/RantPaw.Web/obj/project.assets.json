@@ -403,6 +403,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -497,6 +510,41 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "RantPaw.Models.DTOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RantPaw.Models.DTOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Models.DTOS.dll": {}
+        }
+      },
+      "RantPaw.Models.ServiceModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RantPaw.Models.ServiceModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Models.ServiceModels.dll": {}
+        }
+      },
+      "RantPaw.Services.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RantPaw.Models.DTOS": "1.0.0",
+          "RantPaw.Models.ServiceModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RantPaw.Services.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Services.Web.dll": {}
         }
       }
     },
@@ -902,6 +950,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -990,6 +1051,41 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "RantPaw.Models.DTOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RantPaw.Models.DTOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Models.DTOS.dll": {}
+        }
+      },
+      "RantPaw.Models.ServiceModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RantPaw.Models.ServiceModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Models.ServiceModels.dll": {}
+        }
+      },
+      "RantPaw.Services.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RantPaw.Models.DTOS": "1.0.0",
+          "RantPaw.Models.ServiceModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RantPaw.Services.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Services.Web.dll": {}
         }
       }
     }
@@ -1598,6 +1694,33 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
@@ -1753,12 +1876,29 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "RantPaw.Models.DTOS/1.0.0": {
+      "type": "project",
+      "path": "../RantPaw.Models.DTOS/RantPaw.Models.DTOS.csproj",
+      "msbuildProject": "../RantPaw.Models.DTOS/RantPaw.Models.DTOS.csproj"
+    },
+    "RantPaw.Models.ServiceModels/1.0.0": {
+      "type": "project",
+      "path": "../RantPaw.Models.ServiceModels/RantPaw.Models.ServiceModels.csproj",
+      "msbuildProject": "../RantPaw.Models.ServiceModels/RantPaw.Models.ServiceModels.csproj"
+    },
+    "RantPaw.Services.Web/1.0.0": {
+      "type": "project",
+      "path": "../RantPaw.Services.Web/RantPaw.Services.Web.csproj",
+      "msbuildProject": "../RantPaw.Services.Web/RantPaw.Services.Web.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.8",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.8"
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.8",
+      "RantPaw.Models.ServiceModels >= 1.0.0",
+      "RantPaw.Services.Web >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1787,7 +1927,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.ServiceModels\\RantPaw.Models.ServiceModels.csproj": {
+              "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.ServiceModels\\RantPaw.Models.ServiceModels.csproj"
+            },
+            "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Web\\RantPaw.Services.Web.csproj": {
+              "projectPath": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Web\\RantPaw.Services.Web.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
