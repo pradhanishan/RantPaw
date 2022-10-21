@@ -12,7 +12,9 @@ namespace RantPaw.Repositories
     {
 
         private readonly ApplicationDbContext _db;
-        public IUserRepository User { get; private set;
+        public IUserRepository User
+        {
+            get; private set;
         }
 
         public UnitOfWork(ApplicationDbContext db)
@@ -22,9 +24,9 @@ namespace RantPaw.Repositories
         }
 
 
-        public Task SaveAsync()
+        public async Task SaveAsync()
         {
-            throw new NotImplementedException();
+            await _db.SaveChangesAsync();
         }
     }
 }

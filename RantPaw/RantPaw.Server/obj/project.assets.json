@@ -912,6 +912,16 @@
           "bin/placeholder/RantPaw.Models.Entities.dll": {}
         }
       },
+      "RantPaw.Models.ServiceModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RantPaw.Models.ServiceModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RantPaw.Models.ServiceModels.dll": {}
+        }
+      },
       "RantPaw.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -929,6 +939,10 @@
       "RantPaw.Services.Server/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RantPaw.Models.ServiceModels": "1.0.0",
+          "RantPaw.Repositories": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/RantPaw.Services.Server.dll": {}
         },
@@ -2296,6 +2310,11 @@
       "type": "project",
       "path": "../RantPaw.Models.Entities/RantPaw.Models.Entities.csproj",
       "msbuildProject": "../RantPaw.Models.Entities/RantPaw.Models.Entities.csproj"
+    },
+    "RantPaw.Models.ServiceModels/1.0.0": {
+      "type": "project",
+      "path": "../RantPaw.Models.ServiceModels/RantPaw.Models.ServiceModels.csproj",
+      "msbuildProject": "../RantPaw.Models.ServiceModels/RantPaw.Models.ServiceModels.csproj"
     },
     "RantPaw.Repositories/1.0.0": {
       "type": "project",

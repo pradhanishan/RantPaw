@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Services.Server", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Repositories", "RantPaw.Repositories\RantPaw.Repositories.csproj", "{8302156E-DEAB-442B-AF08-916AA8B712B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Models.DTOS", "RantPaw.Models.DTOS\RantPaw.Models.DTOS.csproj", "{FEAC8877-13EC-49F3-8F15-69E352EEBED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Models.ServiceModels", "RantPaw.Models.ServiceModels\RantPaw.Models.ServiceModels.csproj", "{F48B8878-DC88-4ED5-B498-87A183D9DDA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{8302156E-DEAB-442B-AF08-916AA8B712B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8302156E-DEAB-442B-AF08-916AA8B712B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8302156E-DEAB-442B-AF08-916AA8B712B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAC8877-13EC-49F3-8F15-69E352EEBED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAC8877-13EC-49F3-8F15-69E352EEBED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAC8877-13EC-49F3-8F15-69E352EEBED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAC8877-13EC-49F3-8F15-69E352EEBED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48B8878-DC88-4ED5-B498-87A183D9DDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48B8878-DC88-4ED5-B498-87A183D9DDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48B8878-DC88-4ED5-B498-87A183D9DDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48B8878-DC88-4ED5-B498-87A183D9DDA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using RantPaw.DataContext;
 using RantPaw.Repositories.IRepositories;
+using RantPaw.Services.Server.UserServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(
     );
 
 builder.Services.AddScoped<IUnitOfWork, IUnitOfWork>();
+
+// Server services
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
