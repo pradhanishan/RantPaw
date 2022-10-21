@@ -12,7 +12,7 @@ namespace RantPaw.Services.Server.PostServices
     {
         Task<ServiceResponse<List<GetPostDTO>>> GetAllPosts();
 
-        //Task<ServiceResponse<GetPostDTO>> CreatePost(CreatePostDTO newPost);
+        Task<ServiceResponse<CreatePostDTO>> CreatePost(CreatePostDTO newPost);
 
     }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RantPaw.Server</name>
+    </assembly>
+    <members>
+        <member name="M:RantPaw.Server.Controllers.PostsController.GetAllPosts">
+            <summary>
+            Get the list of all posts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RantPaw.Server.Controllers.UsersController.Register(RantPaw.Models.DTOS.UserDTOS.RegisterUserDTO)">
+            <summary>
+            Create new user
+            </summary>
+            <param name="registerUser"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

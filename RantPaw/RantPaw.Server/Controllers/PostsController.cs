@@ -1,12 +1,16 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RantPaw.Models.DTOS.PostDTOS;
+using RantPaw.Models.ServiceModels;
 using RantPaw.Services.Server.PostServices;
+using System.Security.Claims;
 
 namespace RantPaw.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class PostsController : ControllerBase
     {
 
@@ -23,18 +27,34 @@ namespace RantPaw.Server.Controllers
         /// <returns></returns>
         [HttpGet]
 
-        public async Task<ActionResult<List<GetPostDTO>>> GetAllPosts()
+        public async Task<ActionResult<ServiceResponse<List<GetPostDTO>>>> GetAllPosts()
         {
             var response = await _postService.GetAllPosts();
 
             return response.StatusCode switch
             {
-                StatusCodes.Status200OK => (ActionResult<List<GetPostDTO>>)Ok(response),
-                _ => (ActionResult<List<GetPostDTO>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
+                StatusCodes.Status200OK => (ActionResult<ServiceResponse<List<GetPostDTO>>>)Ok(response),
+                _ => (ActionResult<ServiceResponse<List<GetPostDTO>>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
             };
 
         }
 
+
+        [HttpPost("Create")]
+        [Authorize]
+        public async Task<ActionResult<ServiceResponse<CreatePostDTO>>> CreatePost(CreatePostDTO newPost)
+        {
+            newPost.AuthorID = Int32.Parse(User.Claims!.FirstOrDefault()!.Value);
+
+            var response = await _postService.CreatePost(newPost);
+
+            return response.StatusCode switch
+            {
+                StatusCodes.Status201Created => (ActionResult<ServiceResponse<CreatePostDTO>>)CreatedAtAction("CreatePost", response),
+                _ => (ActionResult<ServiceResponse<CreatePostDTO>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
+            };
+
+        }
 
     }
 }

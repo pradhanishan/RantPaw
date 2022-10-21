@@ -52,9 +52,17 @@ namespace RantPaw.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter)
+        public async Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter, string? includeProperties)
         {
-            return await _dbSet.Where(filter).FirstOrDefaultAsync();
+            IQueryable<T> query = _dbSet;
+            if (includeProperties != null)
+            {
+                foreach (var property in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(property);
+                }
+            }
+            return await query.FirstOrDefaultAsync();
         }
     }
 }

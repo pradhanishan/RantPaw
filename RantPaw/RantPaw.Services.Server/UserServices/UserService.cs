@@ -87,19 +87,12 @@ namespace RantPaw.Services.Server.UserServices
 
         public async Task<ServiceResponse<string>> Login(LoginUserDTO loginUser)
         {
-            /*
-             * Check if user exists
-             * Validate credentials
-             * Assign role
-             * Generate authentication token
-            */
-
             ServiceResponse<string> response = new();
 
             try
             {
 
-                User? user = await _unitOfWork.User.GetFirstOrDefaultAsync(u => u.Username.ToLower().Equals(loginUser.Username.ToLower()));
+                User? user = await _unitOfWork.User.GetFirstOrDefaultAsync(u => u.Username.ToLower().Equals(loginUser.Username.ToLower()), includeProperties: null);
                 if (user == null)
                 {
                     // the user with given login credentials does not exist

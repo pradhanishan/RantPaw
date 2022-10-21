@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "W8mxpAATCJ7HYFfCJzn9Mslh/bv0Bo0nyL0nyrRmiYg=",
+  "Source": "RantPaw.Server",
+  "BasePath": "_content/RantPaw.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

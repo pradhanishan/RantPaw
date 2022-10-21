@@ -16,7 +16,6 @@ namespace RantPaw.Models.DTOS.PostDTOS
         public string Description { get; set; } = string.Empty;
 
         [Required]
-        [MinLength(4), MaxLength(255)]
         public bool IsAnonymous { get; set; } = true;
 
         public int AuthorID { get; set; }

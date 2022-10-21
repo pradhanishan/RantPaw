@@ -13,7 +13,7 @@ namespace RantPaw.Repositories.IRepositories
         Task<IEnumerable<T>> GetAllAsync(string? includeProperties);
 
         // Get one single entity that matches the passed filter
-        Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter);
+        Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter, string? includeProperties);
 
         // Return a boolean result based on whether or not a dbset contains an entity that matches passed filter
         Task<bool> CheckIfExists(Expression<Func<T, bool>> filter);
