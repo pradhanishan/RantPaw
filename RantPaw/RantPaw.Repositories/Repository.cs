@@ -62,7 +62,7 @@ namespace RantPaw.Repositories
                     query = query.Include(property);
                 }
             }
-            return await query.FirstOrDefaultAsync();
+            return await query.Where(filter).FirstOrDefaultAsync();
         }
     }
 }

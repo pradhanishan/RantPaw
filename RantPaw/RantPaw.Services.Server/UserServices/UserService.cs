@@ -77,7 +77,7 @@ namespace RantPaw.Services.Server.UserServices
 
         // method to generate password salt and password hash from new register user's input password
 
-        private static void ComputePasswordSaltAndPasswordHash(string password, out byte[] passwordSalt, out byte[] passwordHash)
+        private static  void ComputePasswordSaltAndPasswordHash(string password, out byte[] passwordSalt, out byte[] passwordHash)
         {
             using HMACSHA512 HMAC = new();
 

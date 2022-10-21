@@ -39,7 +39,11 @@ namespace RantPaw.Server.Controllers
 
         }
 
-
+        /// <summary>
+        /// Create new post
+        /// </summary>
+        /// <param name="newPost"></param>
+        /// <returns></returns>
         [HttpPost("Create")]
         [Authorize]
         public async Task<ActionResult<ServiceResponse<CreatePostDTO>>> CreatePost(CreatePostDTO newPost)
