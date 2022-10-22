@@ -11,5 +11,8 @@ namespace RantPaw.Services.Web.PostServices
     public interface IPostService
     {
         Task<ServiceResponse<List<GetPostDTO>>> GetAll();
+
+        Task<ServiceResponse<CreatePostDTO>> CreatePost(CreatePostDTO newPost);
+
     }
 }

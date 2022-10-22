@@ -1,0 +1,68 @@
+﻿@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+@inject IPostService PostService
+
+
+<EditForm Model="newPost" OnValidSubmit="HandleAddNewPost" Context="AddNewPostCTX">
+	<DataAnnotationsValidator/>
+	<div class="mb-3">
+		<label for="exampleFormControlTextarea1" class="form-label">Rant about something</label>
+		<InputTextArea @bind-Value="newPost.Description" class="form-control" id="exampleFormControlTextarea1" rows="3"></InputTextArea>
+	</div>
+	<div class="form-check">
+		<InputCheckbox @bind-Value="newPost.IsAnonymous" class="form-check-input" type="checkbox" id="flexCheckDefault"></InputCheckbox>
+		<label class="form-check-label" for="flexCheckDefault">
+			Post anonymously
+		</label>
+	</div>
+	<button class="btn btn-primary">
+		@(isPostBeingAdded ? "Adding ..." : "Submit")
+	</button>
+	<button class="btn btn-danger">
+		clear
+	</button>
+	@if (isPostAdded && !isPostAddedSuccessfully)
+	{
+		<div>
+			<span class="text-danger">
+				@responseMessage
+			</span>
+		</div>
+	}
+</EditForm>
+
+
+
+
+@code {
+
+	protected CreatePostDTO newPost = new();
+	private bool isPostBeingAdded = false;
+	private bool isPostAdded = false;
+	private bool isPostAddedSuccessfully = false;
+	private string responseMessage = string.Empty;
+
+	private async Task HandleAddNewPost()
+	{
+		isPostBeingAdded = true;
+
+		ServiceResponse<CreatePostDTO> response = await PostService.CreatePost(newPost);
+		isPostAdded = true;
+		if (response.IsSuccessful)
+		{
+			isPostBeingAdded = false;
+			isPostAddedSuccessfully = true;
+			await JS.InvokeVoidAsync("ShowSuccessfulAlert", "Post added successfully");
+			newPost.Description = "";
+		}
+		else
+		{
+			isPostAddedSuccessfully = false;
+			responseMessage = response.Message;
+		}
+
+
+
+	}
+
+}

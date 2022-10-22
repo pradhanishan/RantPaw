@@ -831,12 +831,6 @@ D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\RantPaw.Models.DTOS.
 D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\RantPaw.Models.ServiceModels.pdb
 D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\RantPaw.Services.Web.pdb
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\tTlCd0o7.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\tFhSss1F.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\n0E+zNFT.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\Y+rvEpYY.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\jUZ9SSNT.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\nxlGDmlz.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\AJ8Ltsn+.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
 D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
 D:\development\RantPaw\RantPaw\RantPaw.Web\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
@@ -851,3 +845,9 @@ D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\lNng62dh.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\cJwJxK2R.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\scopedcss\Pages\User\Login.Razor.rz.scp.css
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\scopedcss\Pages\User\register.razor.rz.scp.css
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\tFhSss1F.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\n0E+zNFT.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\Y+rvEpYY.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\jUZ9SSNT.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\nxlGDmlz.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\AJ8Ltsn+.gz

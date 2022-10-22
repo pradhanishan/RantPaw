@@ -1,0 +1,24 @@
+﻿@page "/dashboard"
+@inject NavigationManager NavigationManager
+
+<AuthorizeView>
+	<NotAuthorized>
+		@{
+			NavigationManager.NavigateTo("/auth/login");
+		}
+	</NotAuthorized>
+	<Authorized>
+		<PageTitle>Dashboard</PageTitle>
+
+
+		<AddPost>
+
+		</AddPost>
+	</Authorized>
+
+</AuthorizeView>
+
+
+@code {
+
+}
