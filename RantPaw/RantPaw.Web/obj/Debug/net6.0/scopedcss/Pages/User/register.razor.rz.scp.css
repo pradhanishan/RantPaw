@@ -1,0 +1,16 @@
+.register-header[b-u1qu9uikx3] {
+    color: #364F6B
+}
+
+.register-form-container[b-u1qu9uikx3] {
+    margin-top: 10%;
+}
+
+.register-button[b-u1qu9uikx3] {
+    background-color: #364F6B;
+    color: #F5F5F5;
+}
+
+    .register-button:hover[b-u1qu9uikx3], :focus[b-u1qu9uikx3] {
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    }

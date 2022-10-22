@@ -849,3 +849,5 @@ D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\Di+l4dIz.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\ZFrFqNIb.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\lNng62dh.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\build-gz\cJwJxK2R.gz
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\scopedcss\Pages\User\Login.Razor.rz.scp.css
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Debug\net6.0\scopedcss\Pages\User\register.razor.rz.scp.css

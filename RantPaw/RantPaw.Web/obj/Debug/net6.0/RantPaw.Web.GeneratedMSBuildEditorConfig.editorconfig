@@ -30,10 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdHNcUG9zdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/User/Register.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxSZWdpc3Rlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/development/RantPaw/RantPaw/RantPaw.Web/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +41,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/User/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-b8k7llx2gq
+
+[D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/User/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-u1qu9uikx3
 
 [D:/development/RantPaw/RantPaw/RantPaw.Web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

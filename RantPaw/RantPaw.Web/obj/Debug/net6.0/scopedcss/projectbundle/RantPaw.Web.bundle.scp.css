@@ -1,4 +1,4 @@
-/* /Pages/User/Login.Razor.rz.scp.css */
+/* /Pages/User/login.razor.rz.scp.css */
 /*:root {
     --color-primary:#364F6B;
     --color-secondary:#3FC1C9;
@@ -26,6 +26,23 @@
     .redirect-to-register:hover[b-b8k7llx2gq], :focus[b-b8k7llx2gq] {
         background-color: #F5F5F5;
         color: #364F6B
+    }
+/* /Pages/User/register.razor.rz.scp.css */
+.register-header[b-u1qu9uikx3] {
+    color: #364F6B
+}
+
+.register-form-container[b-u1qu9uikx3] {
+    margin-top: 10%;
+}
+
+.register-button[b-u1qu9uikx3] {
+    background-color: #364F6B;
+    color: #F5F5F5;
+}
+
+    .register-button:hover[b-u1qu9uikx3], :focus[b-u1qu9uikx3] {
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
     }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-swielp5xgp] {

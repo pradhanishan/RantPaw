@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IvNV/U9kCfXzNtPUOORpLBrWRuy+QsvXaRdAzQTTMwY=",
+  "Hash": "x/4QJSMQxNFUTuOjPfKdtoL06Xz9/u7H0EvgUL21L9k=",
   "Source": "RantPaw.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7410,6 +7410,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\js\\common.js",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/common.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\common.js"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\sample-data\\weather.json",

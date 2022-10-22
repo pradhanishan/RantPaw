@@ -1,7 +1,39 @@
 ﻿@page "/auth/register"
 
-<h3>Register</h3>
+
+
+<div class="w-100 d-flex flex-column justify-content-center align-items-center register-form-container">
+	<h3 class="register-header">Register</h3>
+	<EditForm Model="registerUser" OnValidSubmit="HandleSubmitRegisterForm">
+		<DataAnnotationsValidator />
+		<div class="form-floating mb-3">
+			<InputText type="text" class="form-control" id="floatingInput" @bind-Value="registerUser.Username"></InputText>
+			<label for="floatingInput">Username</label>
+		</div>
+		<div class="form-floating mb-3">
+			<InputText type="password" class="form-control" id="floatingInput" @bind-Value="registerUser.Password"></InputText>
+			<label for="floatingInput">Username</label>
+		</div>
+		<div class="form-floating mb-3">
+			<InputText type="password" class="form-control" id="floatingInput" @bind-Value="registerUser.ConfirmPassword"></InputText>
+			<label for="floatingInput">Confirm Password</label>
+		</div>
+		<div class="buttons-container">
+			<button type="submit" class="btn btn-success register-button w-100 @(registerUser.Username.Length>=3 && registerUser.Password.Length>=6 && registerUser.ConfirmPassword.Length>=6 ? "":"disabled")">
+				Register
+			</button>
+		</div>
+	</EditForm>
+
+</div>
 
 @code {
+	RegisterUserDTO registerUser = new();
+
+	private async Task HandleSubmitRegisterForm()
+	{
+		await Task.Delay(3000);
+		Console.WriteLine("Reached");
+	}
 
 }
