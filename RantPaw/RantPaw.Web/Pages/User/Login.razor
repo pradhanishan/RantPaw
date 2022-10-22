@@ -8,10 +8,11 @@
 
 <AuthorizeView>
 	<Authorized>
-		<p>You are already logged in</p>
+		@{
+			NavigationManager.NavigateTo("");
+		}
 	</Authorized>
 	<NotAuthorized>
-
 		<div class=" w-100 d-flex flex-column justify-content-center align-items-center login-form-container">
 
 			<h3 class="login-header">Login</h3>
@@ -34,7 +35,6 @@
 					<div>
 						<span class="text-danger">@responseMessage</span>
 					</div>
-
 				}
 				<div class="buttons-container">
 					<button type="submit" class="btn btn-success login-button w-100 @(loginUser.Username.Length>=3 && loginUser.Password.Length>=6 ? "":"disabled")">
@@ -44,16 +44,9 @@
 						I don't have an account
 					</button>
 				</div>
-
 			</EditForm>
-
-
 		</div>
-
 	</NotAuthorized>
-
-
-
 </AuthorizeView>
 
 @code {
@@ -72,7 +65,7 @@
 		isFormBeingSubmitted = true;
 		isFormSubmitted = false;
 		ServiceResponse<string> response = await UserService.Login(loginUser);
-
+		// login failed
 		if (!response.IsSuccessful)
 		{
 			responseMessage = response.Message;
@@ -91,8 +84,4 @@
 		isFormSubmitted = true;
 		isFormBeingSubmitted = false;
 	}
-
-
-
-
 }

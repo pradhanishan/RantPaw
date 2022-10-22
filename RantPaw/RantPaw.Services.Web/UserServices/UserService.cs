@@ -26,7 +26,7 @@ namespace RantPaw.Services.Web.UserServices
             ServiceResponse<string> responseData = JsonConvert.DeserializeObject<ServiceResponse<string>>(responseAsString)!;
             return responseData;
         }
-
+        
         public async Task<ServiceResponse<string>> Register(RegisterUserDTO registerUser)
         {
             var response = await _httpClient.PostAsJsonAsync("/api/users/register", registerUser);
