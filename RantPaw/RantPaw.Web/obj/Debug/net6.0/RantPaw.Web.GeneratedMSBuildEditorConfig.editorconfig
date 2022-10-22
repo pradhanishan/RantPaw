@@ -50,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/development/RantPaw/RantPaw/RantPaw.Web/Components/BrowsePosts.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCcm93c2VQb3N0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-6qh0rzjneo
+
 [D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/User/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-b8k7llx2gq
