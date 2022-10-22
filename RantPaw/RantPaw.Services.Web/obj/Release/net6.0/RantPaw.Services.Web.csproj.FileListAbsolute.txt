@@ -10,3 +10,8 @@ D:\development\RantPaw\RantPaw\RantPaw.Services.Web\obj\Release\net6.0\RantPaw.S
 D:\development\RantPaw\RantPaw\RantPaw.Services.Web\obj\Release\net6.0\refint\RantPaw.Services.Web.dll
 D:\development\RantPaw\RantPaw\RantPaw.Services.Web\obj\Release\net6.0\RantPaw.Services.Web.pdb
 D:\development\RantPaw\RantPaw\RantPaw.Services.Web\obj\Release\net6.0\ref\RantPaw.Services.Web.dll
+D:\development\RantPaw\RantPaw\RantPaw.Services.Web\bin\Release\net6.0\RantPaw.Models.DTOS.dll
+D:\development\RantPaw\RantPaw\RantPaw.Services.Web\bin\Release\net6.0\RantPaw.Models.ServiceModels.dll
+D:\development\RantPaw\RantPaw\RantPaw.Services.Web\bin\Release\net6.0\RantPaw.Models.DTOS.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Services.Web\bin\Release\net6.0\RantPaw.Models.ServiceModels.pdb
+D:\development\RantPaw\RantPaw\RantPaw.Services.Web\obj\Release\net6.0\RantPaw.Services.Web.csproj.CopyComplete

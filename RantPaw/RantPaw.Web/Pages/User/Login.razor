@@ -1,45 +1,67 @@
 ﻿@page "/auth/login"
 
-@inject IJSRuntime JSRuntime
+@inject IJSRuntime JS
 @inject NavigationManager NavigationManager
 @inject IUserService UserService
 @inject ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
+<AuthorizeView>
+	<Authorized>
+		<p>You are already logged in</p>
+	</Authorized>
+	<NotAuthorized>
 
-<div class=" w-100 d-flex flex-column justify-content-center align-items-center login-form-container">
+		<div class=" w-100 d-flex flex-column justify-content-center align-items-center login-form-container">
 
-	<h3 class="login-header">Login</h3>
+			<h3 class="login-header">Login</h3>
 
-	<EditForm Model="loginUser" OnValidSubmit="HandleSubmitLoginForm">
-		<DataAnnotationsValidator />
-		<div class="form-floating mb-3">
-			<InputText type="text" class="form-control" id="floatingInput" @bind-Value="loginUser.Username"></InputText>
-			<label for="floatingInput">Username</label>
+			<EditForm Model="loginUser" OnValidSubmit="HandleSubmitLoginForm" Context="editFormCTX">
+				<DataAnnotationsValidator />
+
+				<div class="form-floating mb-3">
+					<InputText type="text" class="form-control" id="floatingInput" @bind-Value="loginUser.Username"></InputText>
+					<label for="floatingInput">Username</label>
+
+				</div>
+				<div class="form-floating mb-3">
+					<InputText type="password" class="form-control" id="floatingInput" @bind-Value="loginUser.Password"></InputText>
+					<label for="floatingInput">Password</label>
+
+				</div>
+				@if (isFormSubmitted && !isLoginSuccessful)
+				{
+					<div>
+						<span class="text-danger">@responseMessage</span>
+					</div>
+
+				}
+				<div class="buttons-container">
+					<button type="submit" class="btn btn-success login-button w-100 @(loginUser.Username.Length>=3 && loginUser.Password.Length>=6 ? "":"disabled")">
+						@(isFormBeingSubmitted ? "Logging in ..." : "Login")
+					</button>
+					<button class="btn btn-link w-100 mt-1 redirect-to-register" @onclick="NavigateToRegisterPage">
+						I don't have an account
+					</button>
+				</div>
+
+			</EditForm>
+
 
 		</div>
-		<div class="form-floating mb-3">
-			<InputText type="password" class="form-control" id="floatingInput" @bind-Value="loginUser.Password"></InputText>
-			<label for="floatingInput">Password</label>
 
-		</div>
-		<div class="buttons-container">
-			<button type="submit" class="btn btn-success login-button w-100 @(loginUser.Username.Length>=3 && loginUser.Password.Length>=6 ? "":"disabled")">
-				Login
-			</button>
-			<button class="btn btn-link w-100 mt-1 redirect-to-register" @onclick="NavigateToRegisterPage">
-				I don't have an account
-			</button>
-		</div>
-	</EditForm>
+	</NotAuthorized>
 
 
-</div>
+
+</AuthorizeView>
 
 @code {
 	protected LoginUserDTO loginUser = new();
 	private bool isFormSubmitted = false;
+	private bool isFormBeingSubmitted = false;
 	private bool isLoginSuccessful = false;
-
+	private string responseMessage = string.Empty;
 	private void NavigateToRegisterPage()
 	{
 		NavigationManager.NavigateTo("/auth/register");
@@ -47,22 +69,27 @@
 
 	private async Task HandleSubmitLoginForm()
 	{
-
+		isFormBeingSubmitted = true;
 		isFormSubmitted = false;
 		ServiceResponse<string> response = await UserService.Login(loginUser);
 
 		if (!response.IsSuccessful)
 		{
+			responseMessage = response.Message;
 			isLoginSuccessful = false;
 		}
 		else
 		{
 			await LocalStorage.SetItemAsync("authToken", response.Data);
 			isLoginSuccessful = true;
-			await JSRuntime.InvokeVoidAsync("ShowSuccessfulAlert", "Logged in successfully");
+			responseMessage = response.Message;
+			await AuthenticationStateProvider.GetAuthenticationStateAsync();
+			await JS.InvokeVoidAsync("ShowSuccessfulAlert", responseMessage);
+			NavigationManager.NavigateTo("");
 		}
 
 		isFormSubmitted = true;
+		isFormBeingSubmitted = false;
 	}
 
 

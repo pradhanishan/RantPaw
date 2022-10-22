@@ -1,0 +1,18 @@
+﻿@inject NavigationManager NavigationManager
+@inject ILocalStorageService LocalStorage
+@inject IJSRuntime JS
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<button class="btn btn-danger" @onclick="HandleLogoutRequest">
+	Logout
+</button>
+
+@code {
+	private async Task HandleLogoutRequest()
+	{
+		await LocalStorage.RemoveItemAsync("authToken");
+		await AuthenticationStateProvider.GetAuthenticationStateAsync();
+		await JS.InvokeVoidAsync("ShowSuccessfulAlert", "Logged out successfully");
+		NavigationManager.NavigateTo("/auth/Login");
+	}
+}

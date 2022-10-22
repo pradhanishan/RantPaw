@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Server", "RantPaw.Server\RantPaw.Server.csproj", "{6A3FE370-F3EC-490E-9A9C-806CA574BDEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.Server", "RantPaw.Server\RantPaw.Server.csproj", "{6A3FE370-F3EC-490E-9A9C-806CA574BDEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.DataContext", "RantPaw.DataContext\RantPaw.DataContext.csproj", "{1BA4DA81-EE88-4D62-B202-B66D1123E67D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.DataContext", "RantPaw.DataContext\RantPaw.DataContext.csproj", "{1BA4DA81-EE88-4D62-B202-B66D1123E67D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Models.Entities", "RantPaw.Models.Entities\RantPaw.Models.Entities.csproj", "{38FB1E5B-0497-4E55-9310-379E5651FCFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.Models.Entities", "RantPaw.Models.Entities\RantPaw.Models.Entities.csproj", "{38FB1E5B-0497-4E55-9310-379E5651FCFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Services.Server", "RantPaw.Services.Server\RantPaw.Services.Server.csproj", "{176A770D-C5CC-4665-A353-CE467F332E00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.Services.Server", "RantPaw.Services.Server\RantPaw.Services.Server.csproj", "{176A770D-C5CC-4665-A353-CE467F332E00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Repositories", "RantPaw.Repositories\RantPaw.Repositories.csproj", "{8302156E-DEAB-442B-AF08-916AA8B712B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.Repositories", "RantPaw.Repositories\RantPaw.Repositories.csproj", "{8302156E-DEAB-442B-AF08-916AA8B712B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Models.DTOS", "RantPaw.Models.DTOS\RantPaw.Models.DTOS.csproj", "{FEAC8877-13EC-49F3-8F15-69E352EEBED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.Models.DTOS", "RantPaw.Models.DTOS\RantPaw.Models.DTOS.csproj", "{FEAC8877-13EC-49F3-8F15-69E352EEBED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Models.ServiceModels", "RantPaw.Models.ServiceModels\RantPaw.Models.ServiceModels.csproj", "{F48B8878-DC88-4ED5-B498-87A183D9DDA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.Models.ServiceModels", "RantPaw.Models.ServiceModels\RantPaw.Models.ServiceModels.csproj", "{F48B8878-DC88-4ED5-B498-87A183D9DDA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.StaticData", "RantPaw.StaticData\RantPaw.StaticData.csproj", "{1A70CCFE-43A6-4BA8-8670-05C038B96B62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.StaticData", "RantPaw.StaticData\RantPaw.StaticData.csproj", "{1A70CCFE-43A6-4BA8-8670-05C038B96B62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Web", "RantPaw.Web\RantPaw.Web.csproj", "{11401BB2-423F-44B6-9688-999CB20D92C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.Web", "RantPaw.Web\RantPaw.Web.csproj", "{11401BB2-423F-44B6-9688-999CB20D92C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RantPaw.Services.Web", "RantPaw.Services.Web\RantPaw.Services.Web.csproj", "{9F7D5EB1-60C5-40D5-BDEE-A1915A268601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RantPaw.Services.Web", "RantPaw.Services.Web\RantPaw.Services.Web.csproj", "{9F7D5EB1-60C5-40D5-BDEE-A1915A268601}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -22,16 +22,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[D:/development/RantPaw/RantPaw/RantPaw.Web/Components/LogoutButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dvdXRCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/Posts/Posts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdHNcUG9zdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/development/RantPaw/RantPaw/RantPaw.Web/Shared/SurveyPrompt.razor]
@@ -41,6 +41,14 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/development/RantPaw/RantPaw/RantPaw.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/User/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-b8k7llx2gq
+
+[D:/development/RantPaw/RantPaw/RantPaw.Web/Pages/User/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-u1qu9uikx3
 
 [D:/development/RantPaw/RantPaw/RantPaw.Web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

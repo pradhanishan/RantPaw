@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lcLkf+6i+ciW3Ln/YgwhYX++U1m31SW5D8qhEWNeCqA=",
+  "Hash": "CT7vd0orgVZZ3KPIzOSpdhyZRSnZTSpI7qHnVJrCCg4=",
   "Source": "RantPaw.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\blazored.localstorage\\4.2.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\dotnet.6.0.8.0erzr5p10q.js",
@@ -184,7 +201,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -201,7 +235,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -269,7 +303,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -473,7 +507,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -661,6 +695,125 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\i7p7x\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.dll",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.DTOS.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.DTOS\\bin\\Release\\net6.0\\RantPaw.Models.DTOS.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.pdb",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.DTOS.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.DTOS\\bin\\Release\\net6.0\\RantPaw.Models.DTOS.pdb"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.dll",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.ServiceModels.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.ServiceModels\\bin\\Release\\net6.0\\RantPaw.Models.ServiceModels.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.pdb",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.ServiceModels.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.ServiceModels\\bin\\Release\\net6.0\\RantPaw.Models.ServiceModels.pdb"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.dll",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Services.Web.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Web\\bin\\Release\\net6.0\\RantPaw.Services.Web.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.pdb",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Services.Web.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Web\\bin\\Release\\net6.0\\RantPaw.Services.Web.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Web.dll",
@@ -3570,6 +3723,23 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Diagnostics.StackTrace.dll"
     },
     {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\2OZRkvm4.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\2VzOXC5B.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
@@ -3602,6 +3772,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Reflection.Extensions.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\33Ej8HMR.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\37sWa8ey.gz",
@@ -4131,6 +4318,23 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Web.pdb"
     },
     {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\bSeFWxlN.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.DTOS.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.dll"
+    },
+    {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\cdZP2bnM.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
@@ -4163,6 +4367,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Runtime.Numerics.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\cJwJxK2R.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\cLnf+usw.gz",
@@ -4214,6 +4435,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\Di+l4dIz.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\dIwDSlE1.gz",
@@ -4369,23 +4607,6 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Transactions.Local.dll"
     },
     {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\eEQ92WV1.gz",
-      "SourceId": "RantPaw.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\eewwl+L1.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
@@ -4452,6 +4673,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\dotnet.6.0.8.0erzr5p10q.js"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\faN1dVIG.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Services.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\fbN0tBWX.gz",
@@ -4845,21 +5083,21 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Threading.dll"
     },
     {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\IK9u+ovF.gz",
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\IJVTtV+5.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "RelativePath": "_framework/RantPaw.Models.DTOS.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\IKj5wNTl.gz",
@@ -5236,23 +5474,6 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Private.Xml.dll"
     },
     {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\Ll+T8sL+.gz",
-      "SourceId": "RantPaw.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\ll2+r3OS.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
@@ -5285,6 +5506,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.Extensions.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\lNng62dh.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\LRvAfRjp.gz",
@@ -5387,6 +5625,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\N4tebMCH.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.ServiceModels.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\nAklgVZg.gz",
@@ -5744,6 +5999,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\QJWfQxjV.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Services.Web.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\QKG+GWKs.gz",
@@ -6118,6 +6390,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Collections.Concurrent.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\tTlCd0o7.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\TUNyqiCC.gz",
@@ -6596,6 +6885,23 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
     },
     {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\xUwznnrq.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.ServiceModels.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.pdb"
+    },
+    {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\Y30t2Cjy.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
@@ -6664,23 +6970,6 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Diagnostics.TraceSource.dll"
     },
     {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\YSrp08KE.gz",
-      "SourceId": "RantPaw.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\yZ+KScPD.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
@@ -6713,6 +7002,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\ZFrFqNIb.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\zgDiiHAi.gz",
@@ -7104,6 +7410,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\js\\common.js",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/common.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\common.js"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\sample-data\\weather.json",
