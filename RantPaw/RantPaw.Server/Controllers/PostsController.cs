@@ -39,6 +39,21 @@ namespace RantPaw.Server.Controllers
 
         }
 
+        [HttpGet("Between/{startingRow:int}/{numberOfRows:int}")]
+
+        public async Task<ActionResult<ServiceResponse<List<GetPostDTO>>>> GetAllPostsBetween(int startingRow, int numberOfRows)
+        {
+            var response = await _postService.GetAllPostsBetween(startingRow, numberOfRows);
+
+            return response.StatusCode switch
+            {
+                StatusCodes.Status200OK => (ActionResult<ServiceResponse<List<GetPostDTO>>>)Ok(response),
+                _ => (ActionResult<ServiceResponse<List<GetPostDTO>>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
+            };
+
+        }
+
+
         /// <summary>
         /// Create new post
         /// </summary>

@@ -93,5 +93,46 @@ namespace RantPaw.Services.Server.PostServices
 
 
         }
+
+        public async Task<ServiceResponse<List<GetPostDTO>>> GetAllPostsBetween(int startingRow, int numberOfRows)
+        {
+            ServiceResponse<List<GetPostDTO>> response = new();
+
+            List<GetPostDTO> listOfPostsForResponse = new();
+
+            try
+            {
+                IEnumerable<Post> posts = await _unitOfWork.Post.GetBetweenAsync(startingRow,numberOfRows, includeProperties: "User");
+
+                foreach (Post post in posts)
+                {
+                    listOfPostsForResponse.Add(new GetPostDTO
+                    {
+                        AuthorName = post.IsAnonymous ? "Anonymous" : post.User.Username,
+                        Id = post.Id,
+                        Description = post.Description,
+                        CreatedDate = post.CreatedDate,
+                        IsAnonymous = post.IsAnonymous,
+                        UpdateDate = post.UpdateDate
+                    });
+                }
+
+                response.StatusCode = StatusCodes.Status200OK;
+                response.IsSuccessful = true;
+                response.Data = listOfPostsForResponse;
+                response.Message = "All posts fetched successfully";
+                return response;
+
+
+            }
+            catch (Exception)
+            {
+                response.StatusCode = StatusCodes.Status500InternalServerError;
+                response.IsSuccessful = false;
+                response.Message = "An internal server error occured";
+                return response;
+            }
+
+        }
     }
 }

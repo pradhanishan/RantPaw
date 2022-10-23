@@ -39,5 +39,13 @@ namespace RantPaw.Services.Web.PostServices
             return responseData;
 
         }
+
+        public async Task<ServiceResponse<List<GetPostDTO>>> GetAllBetween(int startingRow, int numberOfRows)
+        {
+            HttpResponseMessage response = await _httpClient.GetAsync($"/api/posts/between/{startingRow}/{numberOfRows}");
+            string responseAsString = await response.Content.ReadAsStringAsync();
+            ServiceResponse<List<GetPostDTO>> responseData = JsonConvert.DeserializeObject<ServiceResponse<List<GetPostDTO>>>(responseAsString)!;
+            return responseData;
+        }
     }
 }

@@ -14,5 +14,7 @@ namespace RantPaw.Services.Server.PostServices
 
         Task<ServiceResponse<CreatePostDTO>> CreatePost(CreatePostDTO newPost);
 
+        Task<ServiceResponse<List<GetPostDTO>>> GetAllPostsBetween(int startingRow, int numberOfRows);
+
     }
 }

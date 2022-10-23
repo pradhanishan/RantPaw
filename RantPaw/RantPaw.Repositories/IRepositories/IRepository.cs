@@ -24,6 +24,9 @@ namespace RantPaw.Repositories.IRepositories
         // Remove a passed entity from existing dbset
         Task<T> DeleteAsync(T entity);
 
+        // Get n number of rows from position m
+        Task<IEnumerable<T>> GetBetweenAsync(int startingRow, int numberOfRows, string? includeProperties);
+
 
     }
 }

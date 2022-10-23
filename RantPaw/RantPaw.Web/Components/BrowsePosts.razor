@@ -1,58 +1,60 @@
-﻿<h3>BrowsePosts</h3>
+﻿@inject IPostService PostService
 
-<ul>
-	<li class="browse-post-list-item">
-		<div class="browse-post-item-container">
-			<div class="browse-post-image-quote-container">
-				<div class="browse-post-image-container">
-					<img src="/images/bulldog.jpg" class="rounded float-start browse-post-image" alt="dog-image">
-				</div>
-				<div class="browse-post-paragraph">
-					<p>All the good dogs go to heaven</p>
 
-				</div>
-			</div>
-			<div class="browse-post-author">
-				<span> ~ Bulldog</span>
-			</div>
-		</div>
-	</li>
-	<li class="browse-post-list-item">
-		<div class="browse-post-item-container">
-			<div class="browse-post-image-quote-container">
-				<div class="browse-post-image-container">
-					<img src="/images/bulldog.jpg" class="rounded float-start browse-post-image" alt="dog-image">
-				</div>
-				<div class="browse-post-paragraph">
-					<p>All the good dogs go to heaven All the good dogs go to heaven All the good dogs go to heaven All the good dogs go to heaven</p>
+<h3>BrowsePosts</h3>
 
-				</div>
-			</div>
-			<div class="browse-post-author">
-				<span> ~ Bulldog</span>
-			</div>
-		</div>
-	</li>
-	<li class="browse-post-list-item">
-		<div class="browse-post-item-container">
-			<div class="browse-post-image-quote-container">
-				<div class="browse-post-image-container">
-					<img src="/images/bulldog.jpg" class="rounded float-start browse-post-image" alt="dog-image">
-				</div>
-				<div class="browse-post-paragraph">
-					<p>All the good dogs go to heaven</p>
+@if (isLoadedSuccessfully)
+{
+	<ul>
+		@foreach (var post in response.Data!)
+		{
+			<li class="browse-post-list-item">
+				<div class="browse-post-item-container">
+					<div class="browse-post-image-quote-container">
+						<div class="browse-post-image-container">
+							<img src="/images/bulldog.jpg" class="rounded float-start browse-post-image" alt="dog-image">
+						</div>
+						<div class="browse-post-paragraph">
+							<p>@post.Description</p>
 
+						</div>
+					</div>
+					<div class="browse-post-author">
+						<span> ~ @post.AuthorName</span>
+					</div>
 				</div>
-			</div>
-			<div class="browse-post-author">
-				<span> ~ Bulldog</span>
-			</div>
-		</div>
-	</li>
-
-</ul>
+			</li>
+		}
+	</ul>
+}
 
 
 @code {
 
+	ServiceResponse<List<GetPostDTO>> response = new();
+	private bool isLoaded = false;
+	private bool isLoading = false;
+	private bool isLoadedSuccessfully = false;
+	private string responseMessage = string.Empty;
+
+	protected override async Task OnInitializedAsync()
+	{
+		isLoading = true;
+		response = await PostService.GetAllBetween(1, 5);
+
+		if (response.IsSuccessful)
+		{
+			isLoaded = true;
+			isLoading = false;
+			isLoadedSuccessfully = true;
+		}
+		else
+		{
+			isLoaded = true;
+			isLoading = false;
+			isLoadedSuccessfully = false;
+			responseMessage = response.Message;
+		}
+
+	}
 }

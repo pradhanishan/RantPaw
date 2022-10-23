@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OSxU/emMvHprNpXe278jNiBaK3Cu5unsPKpRoN2PEJY=",
+  "Hash": "mT0lY1UMTOQxnybENZ7IEHxrB5CdDhSEGAO9fwaEgYw=",
   "Source": "RantPaw.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7393,6 +7393,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\images\\bulldog.jpg",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/bulldog.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bulldog.jpg"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\wwwroot\\index.html",
