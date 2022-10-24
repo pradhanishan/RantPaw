@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mT0lY1UMTOQxnybENZ7IEHxrB5CdDhSEGAO9fwaEgYw=",
+  "Hash": "Tz6wStFIlhhQQUKEbsJHsCl33I7kn9gzJ85IibjKaHo=",
   "Source": "RantPaw.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -728,7 +728,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.DTOS\\bin\\Debug\\net6.0\\RantPaw.Models.DTOS.dll"
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.DTOS\\bin\\Release\\net6.0\\RantPaw.Models.DTOS.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.pdb",
@@ -745,7 +745,7 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.DTOS\\bin\\Debug\\net6.0\\RantPaw.Models.DTOS.pdb"
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.DTOS\\bin\\Release\\net6.0\\RantPaw.Models.DTOS.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.dll",
@@ -762,7 +762,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.ServiceModels\\bin\\Debug\\net6.0\\RantPaw.Models.ServiceModels.dll"
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.ServiceModels\\bin\\Release\\net6.0\\RantPaw.Models.ServiceModels.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.pdb",
@@ -779,7 +779,7 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.ServiceModels\\bin\\Debug\\net6.0\\RantPaw.Models.ServiceModels.pdb"
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Models.ServiceModels\\bin\\Release\\net6.0\\RantPaw.Models.ServiceModels.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.dll",
@@ -796,7 +796,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Web\\bin\\Debug\\net6.0\\RantPaw.Services.Web.dll"
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Web\\bin\\Release\\net6.0\\RantPaw.Services.Web.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.pdb",
@@ -813,7 +813,7 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Web\\bin\\Debug\\net6.0\\RantPaw.Services.Web.pdb"
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Services.Web\\bin\\Release\\net6.0\\RantPaw.Services.Web.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Web.dll",
@@ -4199,23 +4199,6 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.dll"
     },
     {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\AJ8Ltsn+.gz",
-      "SourceId": "RantPaw.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/RantPaw.Services.Web.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.pdb"
-    },
-    {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\aQ3y7psa.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
@@ -4333,6 +4316,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Web.pdb"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\bSeFWxlN.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.DTOS.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\cdZP2bnM.gz",
@@ -4673,6 +4673,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\dotnet.6.0.8.0erzr5p10q.js"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\faN1dVIG.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Services.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\fbN0tBWX.gz",
@@ -5066,6 +5083,23 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Threading.dll"
     },
     {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\IJVTtV+5.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Models.DTOS.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.pdb"
+    },
+    {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\IKj5wNTl.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
@@ -5234,23 +5268,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Core.dll"
-    },
-    {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\jUZ9SSNT.gz",
-      "SourceId": "RantPaw.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/RantPaw.Models.DTOS.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\jxPb5bpC.gz",
@@ -5610,7 +5627,7 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.dll"
     },
     {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\n0E+zNFT.gz",
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\N4tebMCH.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
@@ -5710,23 +5727,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Private.CoreLib.dll"
-    },
-    {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\nxlGDmlz.gz",
-      "SourceId": "RantPaw.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/RantPaw.Models.ServiceModels.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\NykzQvmE.gz",
@@ -5999,6 +5999,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.dll"
+    },
+    {
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\QJWfQxjV.gz",
+      "SourceId": "RantPaw.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RantPaw.Services.Web.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\QKG+GWKs.gz",
@@ -6339,23 +6356,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.Collections.Immutable.dll"
-    },
-    {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\tFhSss1F.gz",
-      "SourceId": "RantPaw.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/RantPaw.Models.DTOS.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.DTOS.dll"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\tJhQ+2v3.gz",
@@ -6885,21 +6885,21 @@
       "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
     },
     {
-      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\Y+rvEpYY.gz",
+      "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\xUwznnrq.gz",
       "SourceId": "RantPaw.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/RantPaw.Services.Web.dll.gz",
+      "RelativePath": "_framework/RantPaw.Models.ServiceModels.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.dll",
+      "RelatedAsset": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Services.Web.dll"
+      "OriginalItemSpec": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\bin\\Release\\net6.0\\wwwroot\\_framework\\RantPaw.Models.ServiceModels.pdb"
     },
     {
       "Identity": "D:\\development\\RantPaw\\RantPaw\\RantPaw.Web\\obj\\Release\\net6.0\\build-gz\\Y30t2Cjy.gz",

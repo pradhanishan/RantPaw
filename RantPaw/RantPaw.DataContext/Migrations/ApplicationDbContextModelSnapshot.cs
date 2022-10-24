@@ -49,6 +49,76 @@ namespace RantPaw.DataContext.Migrations
                     b.ToTable("Posts");
                 });
 
+            modelBuilder.Entity("RantPaw.Models.Entities.PostReaction", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTimeOffset>("CreatedDate")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int?>("PostId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ReactionId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<DateTimeOffset>("UpdatedDate")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int?>("UserId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PostId");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("ReactionId", "UserId", "PostId")
+                        .IsUnique();
+
+                    b.ToTable("PostReactions");
+                });
+
+            modelBuilder.Entity("RantPaw.Models.Entities.Reaction", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Reactions", "ref");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "like"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "dislike"
+                        });
+                });
+
             modelBuilder.Entity("RantPaw.Models.Entities.User", b =>
                 {
                     b.Property<int>("Id")
@@ -94,6 +164,33 @@ namespace RantPaw.DataContext.Migrations
                         .HasForeignKey("AuthorID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("RantPaw.Models.Entities.PostReaction", b =>
+                {
+                    b.HasOne("RantPaw.Models.Entities.Post", "Post")
+                        .WithMany()
+                        .HasForeignKey("PostId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RantPaw.Models.Entities.Reaction", "Reaction")
+                        .WithMany()
+                        .HasForeignKey("ReactionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RantPaw.Models.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Post");
+
+                    b.Navigation("Reaction");
 
                     b.Navigation("User");
                 });

@@ -1,0 +1,27 @@
+.posts-container[b-7e73fpzk2d] {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+li[b-7e73fpzk2d] {
+    list-style: none;
+    border-radius:9px;
+}
+
+
+
+.card:hover[b-7e73fpzk2d], :focus[b-7e73fpzk2d] {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+}
+
+.btn-outline-danger:hover[b-7e73fpzk2d], :focus[b-7e73fpzk2d] {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+}
+
+@media (max-width: 768px) {
+    .posts-container[b-7e73fpzk2d] {
+        grid-template-columns: 1fr;
+    }
+}
