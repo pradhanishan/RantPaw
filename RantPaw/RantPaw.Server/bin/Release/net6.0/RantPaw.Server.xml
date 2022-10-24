@@ -10,6 +10,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:RantPaw.Server.Controllers.PostsController.CetPostsCount">
+            <summary>
+            Get the total count
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:RantPaw.Server.Controllers.PostsController.CreatePost(RantPaw.Models.DTOS.PostDTOS.CreatePostDTO)">
             <summary>
             Create new post

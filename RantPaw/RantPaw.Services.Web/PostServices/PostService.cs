@@ -47,5 +47,13 @@ namespace RantPaw.Services.Web.PostServices
             ServiceResponse<List<GetPostDTO>> responseData = JsonConvert.DeserializeObject<ServiceResponse<List<GetPostDTO>>>(responseAsString)!;
             return responseData;
         }
+
+        public async Task<ServiceResponse<int>> GetPostsCount()
+        {
+            HttpResponseMessage response = await _httpClient.GetAsync($"/api/posts/count");
+            string responseAsString = await response.Content.ReadAsStringAsync();
+            ServiceResponse<int> responseData = JsonConvert.DeserializeObject<ServiceResponse<int>>(responseAsString)!;
+            return responseData;
+        }
     }
 }

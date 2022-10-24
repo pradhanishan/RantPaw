@@ -16,6 +16,7 @@ namespace RantPaw.Services.Web.PostServices
 
         Task<ServiceResponse<List<GetPostDTO>>> GetAllBetween(int startingRow, int numberOfRows);
 
+        Task<ServiceResponse<int>> GetPostsCount();
 
     }
 }

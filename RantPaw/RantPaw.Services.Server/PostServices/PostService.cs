@@ -102,7 +102,7 @@ namespace RantPaw.Services.Server.PostServices
 
             try
             {
-                IEnumerable<Post> posts = await _unitOfWork.Post.GetBetweenAsync(startingRow,numberOfRows, includeProperties: "User");
+                IEnumerable<Post> posts = await _unitOfWork.Post.GetBetweenAsync(startingRow, numberOfRows, includeProperties: "User");
 
                 foreach (Post post in posts)
                 {
@@ -132,6 +132,30 @@ namespace RantPaw.Services.Server.PostServices
                 response.Message = "An internal server error occured";
                 return response;
             }
+
+        }
+
+        public async Task<ServiceResponse<int>> GetAllPostsCount()
+        {
+            ServiceResponse<int> response = new();
+
+            try
+            {
+                response.Data = await _unitOfWork.Post.GetCountAsync(filter: null);
+                response.StatusCode = StatusCodes.Status200OK;
+                response.IsSuccessful = true;
+                response.Message = "Data fetched successfully";
+                return response;
+            }
+            catch (Exception)
+            {
+                response.StatusCode = StatusCodes.Status500InternalServerError;
+                response.IsSuccessful = false;
+                response.Message = "An internal server error occured";
+                return response;
+            }
+
+
 
         }
     }

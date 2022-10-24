@@ -65,6 +65,15 @@ namespace RantPaw.Repositories
             return await query.Skip(startingRow).Take(numberOfRows).ToListAsync();
         }
 
+        public async Task<int> GetCountAsync(Expression<Func<T, bool>>? filter = null)
+        {
+            if (filter != null)
+            {
+                return await _dbSet.Where(filter).CountAsync();
+            }
+            return await _dbSet.CountAsync();
+        }
+
         public async Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter, string? includeProperties)
         {
             IQueryable<T> query = _dbSet;

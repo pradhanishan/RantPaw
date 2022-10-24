@@ -39,6 +39,24 @@ namespace RantPaw.Server.Controllers
 
         }
 
+        /// <summary>
+        /// Get the total count
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("count")]
+
+        public async Task<ActionResult<ServiceResponse<int>>> CetPostsCount()
+        {
+            var response = await _postService.GetAllPostsCount();
+
+            return response.StatusCode switch
+            {
+                StatusCodes.Status200OK => (ActionResult<ServiceResponse<int>>)Ok(response),
+                _ => (ActionResult<ServiceResponse<int>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
+            };
+
+        }
+
         [HttpGet("Between/{startingRow:int}/{numberOfRows:int}")]
 
         public async Task<ActionResult<ServiceResponse<List<GetPostDTO>>>> GetAllPostsBetween(int startingRow, int numberOfRows)

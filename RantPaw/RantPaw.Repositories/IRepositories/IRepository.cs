@@ -27,6 +27,8 @@ namespace RantPaw.Repositories.IRepositories
         // Get n number of rows from position m
         Task<IEnumerable<T>> GetBetweenAsync(int startingRow, int numberOfRows, string? includeProperties);
 
+        // Get count
+        Task<int> GetCountAsync(Expression<Func<T, bool>>? filter);
 
     }
 }

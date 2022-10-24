@@ -845,10 +845,10 @@ D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\build-gz\cJwJxK2R.
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\build-gz\tTlCd0o7.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\scopedcss\Pages\User\login.razor.rz.scp.css
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\scopedcss\Pages\User\register.razor.rz.scp.css
+D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\scopedcss\Components\browseposts.razor.rz.scp.css
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\build-gz\tFhSss1F.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\build-gz\n0E+zNFT.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\build-gz\Y+rvEpYY.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\build-gz\jUZ9SSNT.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\build-gz\nxlGDmlz.gz
 D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\build-gz\AJ8Ltsn+.gz
-D:\development\RantPaw\RantPaw\RantPaw.Web\obj\Release\net6.0\scopedcss\Components\browseposts.razor.rz.scp.css
