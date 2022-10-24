@@ -11,22 +11,24 @@
 }
 @if (isLoadedSuccessfully)
 {
-	<ul>
+	<ul class="posts-container">
 		@foreach (var post in response.Data!)
 		{
-			<li class="browse-post-list-item">
-				<div class="browse-post-item-container">
-					<div class="browse-post-image-quote-container">
-						<div class="browse-post-image-container">
-							<img src="/images/bulldog.jpg" class="rounded float-start browse-post-image" alt="dog-image">
-						</div>
-						<div class="browse-post-paragraph">
-							<p>@post.Description</p>
-
-						</div>
+			<li>
+				<div class="card h-100" style="width: 18rem;">
+					<img src="/images/bulldog.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title @(post.AuthorName.Trim().ToLower().Equals("anonymous")?"text-secondary":"text-success")">@post.AuthorName</h5>
+						<p class="card-text fst-italic">@post.Description</p>
 					</div>
-					<div class="browse-post-author">
-						<span> ~ @post.AuthorName</span>
+					<div class="card-body w-100 d-flex justify-content-between">
+						<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+							<button type="button" class="btn btn-outline-success"><i class="bi bi-hand-thumbs-up-fill"></i></button>
+							<button type="button" class="btn btn-outline-danger"><i class="bi bi-hand-thumbs-down-fill"></i></button>
+						</div>
+						<div>
+
+							<button type="button" class="btn btn-outline-warning"><i class="bi bi-three-dots"></i></button></div>
 					</div>
 				</div>
 			</li>
@@ -39,11 +41,15 @@
 			@if (startingNumber - 3 >= 1)
 			{
 				<button type="button" class="btn btn-outline-secondary" @onclick="()=>FetchPosts(startingNumber,3,false)"><i class="bi bi-arrow-left"></i>Prev</button>
+			} else {
+						<button type="button" class="btn btn-outline-secondary" disabled><i class="bi bi-arrow-left"></i>Prev</button>
 			}
 			@if (startingNumber + 3 <= numberOfPosts)
 			{
 
 				<button type="button" class="btn btn-outline-secondary" @onclick="()=>FetchPosts(startingNumber,3,true)"><i class="bi bi-arrow-right"></i>Next</button>
+			} else {
+				<button type="button" class="btn btn-outline-secondary" disabled><i class="bi bi-arrow-right"></i>Next</button>
 			}
 
 		</div>

@@ -1,0 +1,27 @@
+﻿.posts-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+li {
+    list-style: none;
+    border-radius:9px;
+}
+
+
+
+.card:hover, :focus {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+}
+
+.btn-outline-danger:hover, :focus {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+}
+
+@media (max-width: 768px) {
+    .posts-container {
+        grid-template-columns: 1fr;
+    }
+}

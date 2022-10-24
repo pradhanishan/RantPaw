@@ -6,7 +6,7 @@
 <EditForm Model="newPost" OnValidSubmit="HandleAddNewPost" Context="AddNewPostCTX">
 	<DataAnnotationsValidator/>
 	<div class="mb-3">
-		<label for="exampleFormControlTextarea1" class="form-label">Rant about something</label>
+		<label for="exampleFormControlTextarea1" class="form-label text-success">Rant about something</label>
 		<InputTextArea @bind-Value="newPost.Description" class="form-control" id="exampleFormControlTextarea1" rows="3"></InputTextArea>
 	</div>
 	<div class="form-check">
