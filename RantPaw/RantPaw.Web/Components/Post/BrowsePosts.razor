@@ -18,7 +18,11 @@
 				<div class="card h-100" style="width: 18rem;">
 					<img src="/images/bulldog.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
-						<h5 class="card-title @(post.AuthorName.Trim().ToLower().Equals("anonymous")?"text-secondary":"text-success")">@post.AuthorName</h5>
+						<h5 class="card-title @(post.AuthorName.Trim().ToLower().Equals("anonymous")?"text-secondary":"text-success")">
+							@(post.AuthorId == loggedInUserId ? "You" : @post.AuthorName)
+
+
+						</h5>
 						<p class="card-text fst-italic">@post.Description</p>
 					</div>
 					<div class="card-body w-100 d-flex justify-content-between">
@@ -44,7 +48,7 @@
 						</div>
 						<div>
 
-							<button type="button" class="btn btn-outline-warning"><i class="bi bi-three-dots"></i> <span>@post.Reactions.Count()</span></button>
+							<button type="button" class="btn btn-outline-warning"><i class="bi bi-three-dots"></i> </button>
 						</div>
 					</div>
 				</div>

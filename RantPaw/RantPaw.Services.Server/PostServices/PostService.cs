@@ -174,7 +174,7 @@ namespace RantPaw.Services.Server.PostServices
                 {
                     GetPostWithPostReactionDTO postWithPostReactionDTO = new()
                     {
-                        AuthorName = users.Where(u => u.Id == postWithPostReaction.AuthorId).Select(u => u.Username).FirstOrDefault()!,
+                        AuthorName = postWithPostReaction.IsAnonymous ? "anonymous" : users.Where(u => u.Id == postWithPostReaction.AuthorId).Select(u => u.Username).FirstOrDefault()!,
                         Description = postWithPostReaction.Description,
                         CreatedDate = postWithPostReaction.CreatedDate,
                         UpdateDate = postWithPostReaction.UpdateDate,
@@ -224,13 +224,13 @@ namespace RantPaw.Services.Server.PostServices
 
                 IEnumerable<User> users = await _unitOfWork.User.GetAllAsync(includeProperties: null);
 
-                IEnumerable<PostWithPostReaction> postsWithPostReactions = await _unitOfWork.Post.GetPostsWithReactionsBetween(startingRow,numberOfRows);
+                IEnumerable<PostWithPostReaction> postsWithPostReactions = await _unitOfWork.Post.GetPostsWithReactionsBetween(startingRow, numberOfRows);
 
                 foreach (PostWithPostReaction postWithPostReaction in postsWithPostReactions)
                 {
                     GetPostWithPostReactionDTO postWithPostReactionDTO = new()
                     {
-                        AuthorName = users.Where(u => u.Id == postWithPostReaction.AuthorId).Select(u => u.Username).FirstOrDefault()!,
+                        AuthorName = postWithPostReaction.IsAnonymous ? "anonymous" : users.Where(u => u.Id == postWithPostReaction.AuthorId).Select(u => u.Username).FirstOrDefault()!,
                         Description = postWithPostReaction.Description,
                         CreatedDate = postWithPostReaction.CreatedDate,
                         UpdateDate = postWithPostReaction.UpdateDate,
