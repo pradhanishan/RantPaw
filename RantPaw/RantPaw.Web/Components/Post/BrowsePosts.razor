@@ -1,5 +1,5 @@
 ﻿@inject IPostService PostService
-
+@inject AuthenticationStateProvider GetAuthenticationStateAsync
 
 <h3>BrowsePosts</h3>
 
@@ -23,12 +23,29 @@
 					</div>
 					<div class="card-body w-100 d-flex justify-content-between">
 						<div class="btn-group" role="group" aria-label="Basic mixed styles example">
-							<button type="button" class="btn btn-outline-success"><i class="bi bi-hand-thumbs-up-fill"></i></button>
-							<button type="button" class="btn btn-outline-danger"><i class="bi bi-hand-thumbs-down-fill"></i></button>
+
+							@if (post.Reactions.Any(u => u.ReactorId == loggedInUserId && u.Reaction == "like") || post.AuthorId == loggedInUserId)
+							{
+								<button type="button" class="btn btn-secondary" disabled><i class="bi bi-hand-thumbs-up-fill"></i></button>
+							}
+							else
+							{
+								<button type="button" class="btn btn-secondary"><i class="bi bi-hand-thumbs-up-fill"></i></button>
+							}
+							@if (post.Reactions.Any(u => u.ReactorId == loggedInUserId && u.Reaction == "dislike") || post.AuthorId == loggedInUserId)
+							{
+								<button type="button" class="btn btn-secondary" disabled><i class="bi bi-hand-thumbs-down-fill"></i></button>
+							}
+							else
+							{
+								<button type="button" class="btn btn-outline-danger"><i class="bi bi-hand-thumbs-down-fill"></i></button>
+							}
+
 						</div>
 						<div>
 
-							<button type="button" class="btn btn-outline-warning"><i class="bi bi-three-dots"></i></button></div>
+							<button type="button" class="btn btn-outline-warning"><i class="bi bi-three-dots"></i></button>
+						</div>
 					</div>
 				</div>
 			</li>
@@ -41,14 +58,18 @@
 			@if (startingNumber - 3 >= 1)
 			{
 				<button type="button" class="btn btn-outline-secondary" @onclick="()=>FetchPosts(startingNumber,3,false)"><i class="bi bi-arrow-left"></i>Prev</button>
-			} else {
-						<button type="button" class="btn btn-outline-secondary" disabled><i class="bi bi-arrow-left"></i>Prev</button>
+			}
+			else
+			{
+				<button type="button" class="btn btn-outline-secondary" disabled><i class="bi bi-arrow-left"></i>Prev</button>
 			}
 			@if (startingNumber + 3 <= numberOfPosts)
 			{
 
 				<button type="button" class="btn btn-outline-secondary" @onclick="()=>FetchPosts(startingNumber,3,true)"><i class="bi bi-arrow-right"></i>Next</button>
-			} else {
+			}
+			else
+			{
 				<button type="button" class="btn btn-outline-secondary" disabled><i class="bi bi-arrow-right"></i>Next</button>
 			}
 
@@ -62,13 +83,14 @@
 
 @code {
 
-	ServiceResponse<List<GetPostDTO>> response = new();
+	ServiceResponse<List<GetPostWithPostReactionDTO>> response = new();
 	private bool isLoaded = false;
 	private bool isLoading = false;
 	private bool isLoadedSuccessfully = false;
 	private string responseMessage = string.Empty;
 	private int numberOfPosts;
 	private int startingNumber = 1;
+	private int loggedInUserId;
 
 	protected override async Task OnInitializedAsync()
 	{
@@ -83,10 +105,11 @@
 	protected async Task FetchPosts(int startingRow, int numberOfRows, bool next)
 	{
 
+		var authState = await GetAuthenticationStateAsync.GetAuthenticationStateAsync();
+		loggedInUserId = Int32.Parse(authState.User.Claims.FirstOrDefault()!.Value);
 
 
-
-		response = await PostService.GetAllBetween(startingRow, numberOfRows);
+		response = await PostService.GetAllWithReactionsBetween(startingRow, numberOfRows);
 
 		if (response.IsSuccessful)
 		{

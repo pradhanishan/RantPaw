@@ -214,5 +214,58 @@ namespace RantPaw.Services.Server.PostServices
 
 
         }
+
+        public async Task<ServiceResponse<List<GetPostWithPostReactionDTO>>> GetAllPostsWithReactionsBetween(int startingRow, int numberOfRows)
+        {
+            ServiceResponse<List<GetPostWithPostReactionDTO>> response = new();
+            try
+            {
+                List<GetPostWithPostReactionDTO> responseData = new();
+
+                IEnumerable<User> users = await _unitOfWork.User.GetAllAsync(includeProperties: null);
+
+                IEnumerable<PostWithPostReaction> postsWithPostReactions = await _unitOfWork.Post.GetPostsWithReactionsBetween(startingRow,numberOfRows);
+
+                foreach (PostWithPostReaction postWithPostReaction in postsWithPostReactions)
+                {
+                    GetPostWithPostReactionDTO postWithPostReactionDTO = new()
+                    {
+                        AuthorName = users.Where(u => u.Id == postWithPostReaction.AuthorId).Select(u => u.Username).FirstOrDefault()!,
+                        Description = postWithPostReaction.Description,
+                        CreatedDate = postWithPostReaction.CreatedDate,
+                        UpdateDate = postWithPostReaction.UpdateDate,
+                        AuthorId = postWithPostReaction.AuthorId,
+                        IsAnonymous = postWithPostReaction.IsAnonymous
+                    };
+
+                    foreach (PostReaction postReaction in postWithPostReaction.Reactions)
+                    {
+                        GetPostReactionDTO postReactionDTO = new()
+                        {
+                            Reaction = postReaction.Reaction!.Name,
+                            ReactorId = postReaction.User!.Id,
+                            ReactorName = postReaction.User.Username,
+
+                        };
+                        postWithPostReactionDTO.Reactions.Add(postReactionDTO);
+                    }
+                    responseData.Add(postWithPostReactionDTO);
+                }
+
+                response.StatusCode = StatusCodes.Status200OK;
+                response.IsSuccessful = true;
+                response.Data = responseData;
+                response.Message = "Data fetched successfully";
+                return response;
+
+            }
+            catch (Exception)
+            {
+                response.StatusCode = StatusCodes.Status500InternalServerError;
+                response.IsSuccessful = false;
+                response.Message = "An internal server error occured";
+                return response;
+            }
+        }
     }
 }

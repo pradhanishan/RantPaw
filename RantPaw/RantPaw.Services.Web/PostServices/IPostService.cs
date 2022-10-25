@@ -16,6 +16,10 @@ namespace RantPaw.Services.Web.PostServices
 
         Task<ServiceResponse<List<GetPostDTO>>> GetAllBetween(int startingRow, int numberOfRows);
 
+        Task<ServiceResponse<List<GetPostWithPostReactionDTO>>> GetAllWithReactions();
+
+        Task<ServiceResponse<List<GetPostWithPostReactionDTO>>> GetAllWithReactionsBetween(int startingRow, int numberOfRows);
+
         Task<ServiceResponse<int>> GetPostsCount();
 
     }

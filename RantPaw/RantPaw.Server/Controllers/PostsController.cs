@@ -84,6 +84,20 @@ namespace RantPaw.Server.Controllers
 
         }
 
+        [HttpGet("withreactions/between/{startingRow:int}/{numberOfRows:int}")]
+
+        public async Task<ActionResult<ServiceResponse<List<GetPostWithPostReactionDTO>>>> GetAllPostsWithReactionsBetween(int startingRow, int numberOfRows)
+        {
+            var response = await _postService.GetAllPostsWithReactionsBetween(startingRow, numberOfRows);
+
+            return response.StatusCode switch
+            {
+                StatusCodes.Status200OK => (ActionResult<ServiceResponse<List<GetPostWithPostReactionDTO>>>)Ok(response),
+                _ => (ActionResult<ServiceResponse<List<GetPostWithPostReactionDTO>>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
+            };
+
+        }
+
 
         /// <summary>
         /// Create new post

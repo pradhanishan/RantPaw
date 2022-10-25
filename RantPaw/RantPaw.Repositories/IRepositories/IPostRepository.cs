@@ -11,5 +11,6 @@ namespace RantPaw.Repositories.IRepositories
     {
 
         Task<IEnumerable<PostWithPostReaction>> GetPostsWithReactions();
+        Task<IEnumerable<PostWithPostReaction>> GetPostsWithReactionsBetween(int startingRow, int numberOfRows);
     }
 }

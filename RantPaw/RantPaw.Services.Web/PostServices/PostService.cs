@@ -48,6 +48,22 @@ namespace RantPaw.Services.Web.PostServices
             return responseData;
         }
 
+        public async Task<ServiceResponse<List<GetPostWithPostReactionDTO>>> GetAllWithReactions()
+        {
+            HttpResponseMessage response = await _httpClient.GetAsync($"/api/posts/withreactions");
+            string responseAsString = await response.Content.ReadAsStringAsync();
+            ServiceResponse<List<GetPostWithPostReactionDTO>> responseData = JsonConvert.DeserializeObject<ServiceResponse<List<GetPostWithPostReactionDTO>>>(responseAsString)!;
+            return responseData;
+        }
+
+        public async Task<ServiceResponse<List<GetPostWithPostReactionDTO>>> GetAllWithReactionsBetween(int startingRow, int numberOfRows)
+        {
+            HttpResponseMessage response = await _httpClient.GetAsync($"/api/posts/withreactions/between/{startingRow}/{numberOfRows}");
+            string responseAsString = await response.Content.ReadAsStringAsync();
+            ServiceResponse<List<GetPostWithPostReactionDTO>> responseData = JsonConvert.DeserializeObject<ServiceResponse<List<GetPostWithPostReactionDTO>>>(responseAsString)!;
+            return responseData;
+        }
+
         public async Task<ServiceResponse<int>> GetPostsCount()
         {
             HttpResponseMessage response = await _httpClient.GetAsync($"/api/posts/count");
