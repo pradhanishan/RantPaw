@@ -7,6 +7,7 @@ using RantPaw.DataContext;
 using RantPaw.Repositories;
 using RantPaw.Repositories.IRepositories;
 using RantPaw.Services.Server.PostServices;
+using RantPaw.Services.Server.ReactionServices;
 using RantPaw.Services.Server.UserServices;
 using System.Reflection;
 using System.Text;
@@ -95,6 +96,7 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPostService, PostService>();
+builder.Services.AddScoped<IReactionService, ReactionService>();
 
 // JWT Authentication
 
