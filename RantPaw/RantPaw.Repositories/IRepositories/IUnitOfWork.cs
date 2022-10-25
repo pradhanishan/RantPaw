@@ -12,6 +12,8 @@ namespace RantPaw.Repositories.IRepositories
 
         IPostRepository Post { get; }
 
+        IReactionRepository Reaction { get; }
+
         Task SaveAsync();
 
     }

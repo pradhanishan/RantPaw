@@ -16,11 +16,13 @@ namespace RantPaw.Repositories
 
         public IPostRepository Post { get; private set; }
 
+        public IReactionRepository Reaction { get; private set; }
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             User = new UserRepository(_db);
             Post = new PostRepository(_db);
+            Reaction = new ReactionRepository(_db);
         }
 
 

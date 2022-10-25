@@ -39,6 +39,19 @@ namespace RantPaw.Server.Controllers
 
         }
 
+        [HttpGet("withreactions")]
+
+        public async Task<ActionResult<ServiceResponse<List<GetPostWithPostReactionDTO>>>> GetAllPostsWithReactions()
+        {
+            var response = await _postService.GetAllPostsWithReactions();
+
+            return response.StatusCode switch
+            {
+                StatusCodes.Status200OK => (ActionResult<ServiceResponse<List<GetPostWithPostReactionDTO>>>)Ok(response),
+                _ => (ActionResult<ServiceResponse<List<GetPostWithPostReactionDTO>>>)Problem(statusCode: StatusCodes.Status500InternalServerError, detail: response.Message, title: response.Message)
+            };
+        }
+
         /// <summary>
         /// Get the total count
         /// </summary>

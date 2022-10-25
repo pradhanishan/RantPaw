@@ -18,6 +18,8 @@ namespace RantPaw.Services.Server.PostServices
 
         Task<ServiceResponse<int>> GetAllPostsCount();
 
+        Task<ServiceResponse<List<GetPostWithPostReactionDTO>>> GetAllPostsWithReactions();
+
 
     }
 }

@@ -9,5 +9,7 @@ namespace RantPaw.Repositories.IRepositories
 {
     public interface IPostRepository : IRepository<Post>
     {
+
+        Task<IEnumerable<PostWithPostReaction>> GetPostsWithReactions();
     }
 }
