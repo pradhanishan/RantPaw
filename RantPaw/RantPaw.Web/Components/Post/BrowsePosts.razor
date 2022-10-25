@@ -26,25 +26,25 @@
 
 							@if (post.Reactions.Any(u => u.ReactorId == loggedInUserId && u.Reaction == "like") || post.AuthorId == loggedInUserId)
 							{
-								<button type="button" class="btn btn-secondary" disabled><i class="bi bi-hand-thumbs-up-fill"></i></button>
+								<button type="button" class="btn btn-secondary" disabled><i class="bi bi-hand-thumbs-up-fill"></i><span>@post.Reactions.Where(p=>p.Reaction=="like").Count()</span></button>
 							}
 							else
 							{
-								<button type="button" class="btn btn-secondary"><i class="bi bi-hand-thumbs-up-fill"></i></button>
+								<button type="button" class="btn btn-outline-success"><i class="bi bi-hand-thumbs-up-fill"></i> <span>@post.Reactions.Where(p=>p.Reaction=="like").Count()</span>  </button>
 							}
 							@if (post.Reactions.Any(u => u.ReactorId == loggedInUserId && u.Reaction == "dislike") || post.AuthorId == loggedInUserId)
 							{
-								<button type="button" class="btn btn-secondary" disabled><i class="bi bi-hand-thumbs-down-fill"></i></button>
+								<button type="button" class="btn btn-secondary" disabled><i class="bi bi-hand-thumbs-down-fill"></i> <span>@post.Reactions.Where(p=>p.Reaction=="dislike").Count()</span></button>
 							}
 							else
 							{
-								<button type="button" class="btn btn-outline-danger"><i class="bi bi-hand-thumbs-down-fill"></i></button>
+								<button type="button" class="btn btn-outline-danger"><i class="bi bi-hand-thumbs-down-fill"></i> <span>@post.Reactions.Where(p=>p.Reaction=="dislike").Count()</span></button>
 							}
 
 						</div>
 						<div>
 
-							<button type="button" class="btn btn-outline-warning"><i class="bi bi-three-dots"></i></button>
+							<button type="button" class="btn btn-outline-warning"><i class="bi bi-three-dots"></i> <span>@post.Reactions.Count()</span></button>
 						</div>
 					</div>
 				</div>

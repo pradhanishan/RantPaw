@@ -203,8 +203,8 @@
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
       "RantPaw.Models.DTOS.dll": "sha256-42qd3hdQ5q\/ZjMHfwTe5cPD9sZDAk2r8vpzPPIgWsYk=",
       "RantPaw.Models.ServiceModels.dll": "sha256-KowKftRwm3VepXRBg10ZeYRU8G7x6dcRpXQXiTQqoHk=",
-      "RantPaw.Services.Web.dll": "sha256-JOmUaH6NaXxH9zYkqpEq+rggn9ciMh2jbwjy09JmsfE=",
-      "RantPaw.Web.dll": "sha256-VeqjC7k3JRP9bV5b7\/JAkr8NwZXzDhM\/8REgQlZEhsw="
+      "RantPaw.Services.Web.dll": "sha256-HnN+y3v93y8Ei\/GDeYoOt1YlV57hE4KHD2znFzi3vjo=",
+      "RantPaw.Web.dll": "sha256-TLWfr7tG3YX0oHtKHqvdnfjupz4DTMxPhmRJOxDJpiU="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -212,8 +212,8 @@
     "pdb": {
       "RantPaw.Models.DTOS.pdb": "sha256-xgOGNqejgf4Wh3Ilbqj9aTnQeDAR2nlqYD5UAHQV44g=",
       "RantPaw.Models.ServiceModels.pdb": "sha256-V9Sm4zxmDZZsPrNkc+2fs40DhJjPeDIblpKfZF91P4k=",
-      "RantPaw.Services.Web.pdb": "sha256-RWaeoXZZhEThiCzLeSR7YVezbkY7Gig\/bAEMd5lC9iA=",
-      "RantPaw.Web.pdb": "sha256-qiu+eLEdeEo79GIeNfEuKcU0Z4zhuKVnux8MY2aDRJs="
+      "RantPaw.Services.Web.pdb": "sha256-5laWANkoPWUAhiE1dObK+bEiCfhpZlIDbVs3XaC53h4=",
+      "RantPaw.Web.pdb": "sha256-Sry56sAF5WWYHh3rDUE47\/IATL+TSfDBtKcHIkwLjj8="
     },
     "runtime": {
       "dotnet.6.0.8.0erzr5p10q.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",
