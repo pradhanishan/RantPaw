@@ -30,6 +30,7 @@ namespace RantPaw.Repositories
             {
                 PostWithPostReaction postWithPostReaction = new PostWithPostReaction()
                 {
+                    PostId = post.Id,
                     AuthorId = post.AuthorID,
                     Description = post.Description,
                     IsAnonymous = post.IsAnonymous,
@@ -60,6 +61,7 @@ namespace RantPaw.Repositories
             {
                 PostWithPostReaction postWithPostReaction = new PostWithPostReaction()
                 {
+                    PostId = post.Id,
                     AuthorId = post.AuthorID,
                     Description = post.Description,
                     IsAnonymous = post.IsAnonymous,

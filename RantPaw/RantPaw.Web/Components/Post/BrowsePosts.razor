@@ -1,6 +1,6 @@
 ﻿@inject IPostService PostService
 @inject AuthenticationStateProvider GetAuthenticationStateAsync
-
+@inject IReactionService ReactionService
 <h3>BrowsePosts</h3>
 
 @if (isLoading)
@@ -34,7 +34,7 @@
 							}
 							else
 							{
-								<button type="button" class="btn btn-outline-success"><i class="bi bi-hand-thumbs-up-fill"></i> <span>@post.Reactions.Where(p=>p.Reaction=="like").Count()</span>  </button>
+								<button type="button" class="btn btn-outline-success" @onclick="()=>ReactToPost(post.PostId,loggedInUserId,1 )"><i class="bi bi-hand-thumbs-up-fill"></i> <span>@post.Reactions.Where(p=>p.Reaction=="like").Count()</span>  </button>
 							}
 							@if (post.Reactions.Any(u => u.ReactorId == loggedInUserId && u.Reaction == "dislike") || post.AuthorId == loggedInUserId)
 							{
@@ -42,7 +42,7 @@
 							}
 							else
 							{
-								<button type="button" class="btn btn-outline-danger"><i class="bi bi-hand-thumbs-down-fill"></i> <span>@post.Reactions.Where(p=>p.Reaction=="dislike").Count()</span></button>
+								<button type="button" class="btn btn-outline-danger" @onclick="()=>ReactToPost(post.PostId,loggedInUserId,1 )"><i class="bi bi-hand-thumbs-down-fill"></i> <span>@post.Reactions.Where(p=>p.Reaction=="dislike").Count()</span></button>
 							}
 
 						</div>
@@ -137,6 +137,26 @@
 			if (startingNumber - 3 >= 1) startingNumber -= 3;
 		}
 		StateHasChanged();
+	}
+
+	protected async Task ReactToPost(int postId, int userId, int reactionId)
+	{
+
+		CreatePostReactionDTO newReaction = new()
+			{
+				PostId = postId,
+				UserId = userId,
+				ReactionId = reactionId,
+			};
+
+		ServiceResponse<string> response = await ReactionService.CreatePostReaction(newReaction);
+
+		if (response.IsSuccessful)
+		{
+			// fix ui rendedring
+			StateHasChanged();
+		}
+
 	}
 
 }

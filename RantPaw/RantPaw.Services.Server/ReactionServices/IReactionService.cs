@@ -10,5 +10,6 @@ namespace RantPaw.Services.Server.ReactionServices
 {
     public interface IReactionService
     {
+        Task<ServiceResponse<string>> CreatePostReaction(CreatePostReactionDTO newPostReaction);
     }
 }

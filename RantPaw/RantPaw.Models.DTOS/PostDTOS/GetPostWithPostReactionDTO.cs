@@ -13,6 +13,9 @@ namespace RantPaw.Models.DTOS.PostDTOS
         public int Id { get; set; }
 
         [Required]
+        public int PostId { get; set; }
+
+        [Required]
         [MinLength(4), MaxLength(255)]
         public string Description { get; set; } = string.Empty;
 

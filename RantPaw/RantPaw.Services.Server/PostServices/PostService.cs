@@ -174,6 +174,7 @@ namespace RantPaw.Services.Server.PostServices
                 {
                     GetPostWithPostReactionDTO postWithPostReactionDTO = new()
                     {
+                        PostId = postWithPostReaction.PostId,
                         AuthorName = postWithPostReaction.IsAnonymous ? "anonymous" : users.Where(u => u.Id == postWithPostReaction.AuthorId).Select(u => u.Username).FirstOrDefault()!,
                         Description = postWithPostReaction.Description,
                         CreatedDate = postWithPostReaction.CreatedDate,
@@ -230,6 +231,7 @@ namespace RantPaw.Services.Server.PostServices
                 {
                     GetPostWithPostReactionDTO postWithPostReactionDTO = new()
                     {
+                        PostId = postWithPostReaction.PostId,
                         AuthorName = postWithPostReaction.IsAnonymous ? "anonymous" : users.Where(u => u.Id == postWithPostReaction.AuthorId).Select(u => u.Username).FirstOrDefault()!,
                         Description = postWithPostReaction.Description,
                         CreatedDate = postWithPostReaction.CreatedDate,
